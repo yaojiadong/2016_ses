@@ -1,0 +1,673 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_mulsi3.o)
+                              ./main.o (__mulsi3)
+c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_divmodsi4.o)
+                              ./main.o (__divmodsi4)
+c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_negsi2.o)
+                              c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_divmodsi4.o) (__negsi2)
+c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+                              c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtatmega128rfa1.o (exit)
+c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_umulhisi3.o)
+                              ./main.o (__umulhisi3)
+c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_muluhisi3.o)
+                              c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_mulsi3.o) (__muluhisi3)
+c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_udivmodsi4.o)
+                              c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_divmodsi4.o) (__udivmodsi4)
+c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(cmpsf2.o)
+                              ./blink.o (__ltsf2)
+c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fixunssfsi.o)
+                              ./blink.o (__fixunssfsi)
+c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_cmp.o)
+                              c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(cmpsf2.o) (__fp_cmp)
+c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_split3.o)
+                              c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fixunssfsi.o) (__fp_splitA)
+c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_zero.o)
+                              c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fixunssfsi.o) (__fp_zero)
+c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(gesf2.o)
+                              ./blink.o (__gtsf2)
+c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(mulsf3.o)
+                              ./blink.o (__mulsf3)
+c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(mulsf3x.o)
+                              c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(mulsf3.o) (__mulsf3x)
+c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_inf.o)
+                              c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(mulsf3x.o) (__fp_inf)
+c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_nan.o)
+                              c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(mulsf3x.o) (__fp_nan)
+c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_pscA.o)
+                              c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(mulsf3x.o) (__fp_pscA)
+c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_pscB.o)
+                              c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(mulsf3x.o) (__fp_pscB)
+c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_round.o)
+                              c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(mulsf3.o) (__fp_round)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800100         0x0000ff00         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+user_signatures  0x00850000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800200
+LOAD c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtatmega128rfa1.o
+LOAD ./blink.o
+LOAD ./main.o
+START GROUP
+LOAD c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a
+LOAD c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a
+LOAD c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a
+LOAD c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libatmega128rfa1.a
+END GROUP
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000      0x650
+ *(.vectors)
+ .vectors       0x00000000      0x120 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtatmega128rfa1.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x00000120                . = ALIGN (0x2)
+                0x00000120                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000120        0x0 linker stubs
+ *(.trampolines*)
+                0x00000120                __trampolines_end = .
+ *(.progmem*)
+                0x00000120                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000120                __ctors_start = .
+ *(.ctors)
+                0x00000120                __ctors_end = .
+                0x00000120                __dtors_start = .
+ *(.dtors)
+                0x00000120                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000120        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtatmega128rfa1.o
+                0x00000120                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000120        0xc c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtatmega128rfa1.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x0000012c        0x8 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtatmega128rfa1.o
+ *(.init9)
+ *(.text)
+ .text          0x00000134        0x4 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtatmega128rfa1.o
+                0x00000134                __vector_38
+                0x00000134                __vector_22
+                0x00000134                __vector_63
+                0x00000134                __vector_28
+                0x00000134                __vector_67
+                0x00000134                __vector_1
+                0x00000134                __vector_32
+                0x00000134                __vector_71
+                0x00000134                __vector_34
+                0x00000134                __vector_62
+                0x00000134                __vector_24
+                0x00000134                __vector_12
+                0x00000134                __vector_55
+                0x00000134                __vector_69
+                0x00000134                __vector_46
+                0x00000134                __bad_interrupt
+                0x00000134                __vector_6
+                0x00000134                __vector_31
+                0x00000134                __vector_35
+                0x00000134                __vector_39
+                0x00000134                __vector_3
+                0x00000134                __vector_23
+                0x00000134                __vector_68
+                0x00000134                __vector_30
+                0x00000134                __vector_45
+                0x00000134                __vector_25
+                0x00000134                __vector_61
+                0x00000134                __vector_11
+                0x00000134                __vector_54
+                0x00000134                __vector_13
+                0x00000134                __vector_17
+                0x00000134                __vector_19
+                0x00000134                __vector_56
+                0x00000134                __vector_7
+                0x00000134                __vector_49
+                0x00000134                __vector_41
+                0x00000134                __vector_64
+                0x00000134                __vector_43
+                0x00000134                __vector_27
+                0x00000134                __vector_5
+                0x00000134                __vector_33
+                0x00000134                __vector_47
+                0x00000134                __vector_52
+                0x00000134                __vector_37
+                0x00000134                __vector_4
+                0x00000134                __vector_44
+                0x00000134                __vector_51
+                0x00000134                __vector_9
+                0x00000134                __vector_2
+                0x00000134                __vector_21
+                0x00000134                __vector_15
+                0x00000134                __vector_66
+                0x00000134                __vector_36
+                0x00000134                __vector_58
+                0x00000134                __vector_70
+                0x00000134                __vector_29
+                0x00000134                __vector_60
+                0x00000134                __vector_40
+                0x00000134                __vector_8
+                0x00000134                __vector_26
+                0x00000134                __vector_48
+                0x00000134                __vector_14
+                0x00000134                __vector_57
+                0x00000134                __vector_53
+                0x00000134                __vector_10
+                0x00000134                __vector_50
+                0x00000134                __vector_16
+                0x00000134                __vector_59
+                0x00000134                __vector_18
+                0x00000134                __vector_20
+                0x00000134                __vector_42
+                0x00000134                __vector_65
+ .text          0x00000138        0x0 ./blink.o
+ .text          0x00000138        0x0 ./main.o
+ .text          0x00000138        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_mulsi3.o)
+ .text          0x00000138        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_divmodsi4.o)
+ .text          0x00000138        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_negsi2.o)
+ .text          0x00000138        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .text          0x00000138        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_umulhisi3.o)
+ .text          0x00000138        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_muluhisi3.o)
+ .text          0x00000138        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_udivmodsi4.o)
+ .text          0x00000138        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(cmpsf2.o)
+ .text          0x00000138        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fixunssfsi.o)
+ .text          0x00000138        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_cmp.o)
+ .text          0x00000138        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_split3.o)
+ .text          0x00000138        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_zero.o)
+ .text          0x00000138        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(gesf2.o)
+ .text          0x00000138        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(mulsf3.o)
+ .text          0x00000138        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(mulsf3x.o)
+ .text          0x00000138        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_inf.o)
+ .text          0x00000138        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_nan.o)
+ .text          0x00000138        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_pscA.o)
+ .text          0x00000138        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_pscB.o)
+ .text          0x00000138        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_round.o)
+                0x00000138                . = ALIGN (0x2)
+ *(.text.*)
+ .text.blink    0x00000138      0x120 ./blink.o
+                0x00000138                blink
+ .text.wait     0x00000258       0xb0 ./main.o
+                0x00000258                wait
+ .text.main     0x00000308       0x38 ./main.o
+                0x00000308                main
+ .text.libgcc.mul
+                0x00000340       0x20 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_mulsi3.o)
+                0x00000340                __mulsi3
+ .text.libgcc.div
+                0x00000360        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_mulsi3.o)
+ .text.libgcc   0x00000360        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_mulsi3.o)
+ .text.libgcc.prologue
+                0x00000360        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_mulsi3.o)
+ .text.libgcc.builtins
+                0x00000360        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_mulsi3.o)
+ .text.libgcc.fmul
+                0x00000360        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_mulsi3.o)
+ .text.libgcc.fixed
+                0x00000360        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_mulsi3.o)
+ .text.libgcc.mul
+                0x00000360        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_divmodsi4.o)
+ .text.libgcc.div
+                0x00000360       0x2e c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_divmodsi4.o)
+                0x00000360                __divmodsi4
+ .text.libgcc   0x0000038e        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_divmodsi4.o)
+ .text.libgcc.prologue
+                0x0000038e        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_divmodsi4.o)
+ .text.libgcc.builtins
+                0x0000038e        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_divmodsi4.o)
+ .text.libgcc.fmul
+                0x0000038e        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_divmodsi4.o)
+ .text.libgcc.fixed
+                0x0000038e        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_divmodsi4.o)
+ .text.libgcc.mul
+                0x0000038e        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_negsi2.o)
+ .text.libgcc.div
+                0x0000038e       0x10 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_negsi2.o)
+                0x0000038e                __negsi2
+ .text.libgcc   0x0000039e        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_negsi2.o)
+ .text.libgcc.prologue
+                0x0000039e        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_negsi2.o)
+ .text.libgcc.builtins
+                0x0000039e        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_negsi2.o)
+ .text.libgcc.fmul
+                0x0000039e        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_negsi2.o)
+ .text.libgcc.fixed
+                0x0000039e        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_negsi2.o)
+ .text.libgcc.mul
+                0x0000039e        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x0000039e        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .text.libgcc   0x0000039e        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x0000039e        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x0000039e        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x0000039e        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x0000039e        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x0000039e       0x1e c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_umulhisi3.o)
+                0x0000039e                __umulhisi3
+ .text.libgcc.div
+                0x000003bc        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_umulhisi3.o)
+ .text.libgcc   0x000003bc        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_umulhisi3.o)
+ .text.libgcc.prologue
+                0x000003bc        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_umulhisi3.o)
+ .text.libgcc.builtins
+                0x000003bc        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_umulhisi3.o)
+ .text.libgcc.fmul
+                0x000003bc        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_umulhisi3.o)
+ .text.libgcc.fixed
+                0x000003bc        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_umulhisi3.o)
+ .text.libgcc.mul
+                0x000003bc       0x16 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_muluhisi3.o)
+                0x000003bc                __muluhisi3
+ .text.libgcc.div
+                0x000003d2        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_muluhisi3.o)
+ .text.libgcc   0x000003d2        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_muluhisi3.o)
+ .text.libgcc.prologue
+                0x000003d2        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_muluhisi3.o)
+ .text.libgcc.builtins
+                0x000003d2        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_muluhisi3.o)
+ .text.libgcc.fmul
+                0x000003d2        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_muluhisi3.o)
+ .text.libgcc.fixed
+                0x000003d2        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_muluhisi3.o)
+ .text.libgcc.mul
+                0x000003d2        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.div
+                0x000003d2       0x44 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_udivmodsi4.o)
+                0x000003d2                __udivmodsi4
+ .text.libgcc   0x00000416        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x00000416        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x00000416        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x00000416        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x00000416        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_udivmodsi4.o)
+ .text.avr-libc.fplib
+                0x00000416        0xa c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(cmpsf2.o)
+                0x00000416                __nesf2
+                0x00000416                __eqsf2
+                0x00000416                __cmpsf2
+                0x00000416                __ltsf2
+                0x00000416                __lesf2
+ .text.avr-libc.fplib
+                0x00000420       0x5e c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fixunssfsi.o)
+                0x00000420                __fixunssfsi
+ .text.avr-libc.fplib
+                0x0000047e       0x48 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_cmp.o)
+                0x0000047e                __fp_cmp
+ .text.avr-libc.fplib
+                0x000004c6       0x44 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_split3.o)
+                0x000004c6                __fp_split3
+                0x000004d6                __fp_splitA
+ .text.avr-libc.fplib
+                0x0000050a        0xe c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_zero.o)
+                0x0000050a                __fp_zero
+                0x0000050c                __fp_szero
+ .text.avr-libc.fplib
+                0x00000518        0xa c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(gesf2.o)
+                0x00000518                __gesf2
+                0x00000518                __gtsf2
+ .text.avr-libc.fplib
+                0x00000522        0x8 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(mulsf3.o)
+                0x00000522                __mulsf3
+ .text.avr-libc.fplib
+                0x0000052a       0xd2 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(mulsf3x.o)
+                0x00000548                __mulsf3x
+                0x0000054e                __mulsf3_pse
+ .text.avr-libc.fplib
+                0x000005fc        0xc c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_inf.o)
+                0x000005fc                __fp_inf
+ .text.avr-libc.fplib
+                0x00000608        0x6 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_nan.o)
+                0x00000608                __fp_nan
+ .text.avr-libc.fplib
+                0x0000060e        0xe c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_pscA.o)
+                0x0000060e                __fp_pscA
+ .text.avr-libc.fplib
+                0x0000061c        0xe c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_pscB.o)
+                0x0000061c                __fp_pscB
+ .text.avr-libc.fplib
+                0x0000062a       0x22 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_round.o)
+                0x0000062a                __fp_round
+                0x0000064c                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x0000064c        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+                0x0000064c                _exit
+                0x0000064c                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x0000064c        0x4 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00000650                _etext = .
+
+.data           0x00800200        0x0 load address 0x00000650
+                0x00800200                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtatmega128rfa1.o
+ .data          0x00800200        0x0 ./blink.o
+ .data          0x00800200        0x0 ./main.o
+ .data          0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_mulsi3.o)
+ .data          0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_divmodsi4.o)
+ .data          0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_negsi2.o)
+ .data          0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .data          0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_umulhisi3.o)
+ .data          0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_muluhisi3.o)
+ .data          0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_udivmodsi4.o)
+ .data          0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(cmpsf2.o)
+ .data          0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fixunssfsi.o)
+ .data          0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_cmp.o)
+ .data          0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_split3.o)
+ .data          0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_zero.o)
+ .data          0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(gesf2.o)
+ .data          0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(mulsf3.o)
+ .data          0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(mulsf3x.o)
+ .data          0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_inf.o)
+ .data          0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_nan.o)
+ .data          0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_pscA.o)
+ .data          0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_pscB.o)
+ .data          0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_round.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x00800200                . = ALIGN (0x2)
+                0x00800200                _edata = .
+                0x00800200                PROVIDE (__data_end, .)
+
+.bss            0x00800200        0x0
+                0x00800200                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtatmega128rfa1.o
+ .bss           0x00800200        0x0 ./blink.o
+ .bss           0x00800200        0x0 ./main.o
+ .bss           0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_mulsi3.o)
+ .bss           0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_divmodsi4.o)
+ .bss           0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_negsi2.o)
+ .bss           0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .bss           0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_umulhisi3.o)
+ .bss           0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_muluhisi3.o)
+ .bss           0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_udivmodsi4.o)
+ .bss           0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(cmpsf2.o)
+ .bss           0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fixunssfsi.o)
+ .bss           0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_cmp.o)
+ .bss           0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_split3.o)
+ .bss           0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_zero.o)
+ .bss           0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(gesf2.o)
+ .bss           0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(mulsf3.o)
+ .bss           0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(mulsf3x.o)
+ .bss           0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_inf.o)
+ .bss           0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_nan.o)
+ .bss           0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_pscA.o)
+ .bss           0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_pscB.o)
+ .bss           0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_round.o)
+ *(.bss*)
+ *(COMMON)
+                0x00800200                PROVIDE (__bss_end, .)
+                0x00000650                __data_load_start = LOADADDR (.data)
+                0x00000650                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800200        0x0
+                0x00800200                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00800200                PROVIDE (__noinit_end, .)
+                0x00800200                _end = .
+                0x00800200                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab           0x00000000     0x10a4
+ *(.stab)
+ .stab          0x00000000      0xd20 ./blink.o
+ .stab          0x00000d20      0x384 ./main.o
+                                0xd08 (size before relaxing)
+
+.stabstr        0x00000000     0x421d
+ *(.stabstr)
+ .stabstr       0x00000000     0x421d ./blink.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x30
+ *(.comment)
+ .comment       0x00000000       0x30 ./blink.o
+                                 0x31 (size before relaxing)
+ .comment       0x00000030       0x31 ./main.o
+
+.note.gnu.avr.deviceinfo
+                0x00000000       0x40
+ .note.gnu.avr.deviceinfo
+                0x00000000       0x40 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtatmega128rfa1.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line .debug_line.* .debug_line_end)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(1_ex_1.elf elf32-avr)
+LOAD linker stubs
