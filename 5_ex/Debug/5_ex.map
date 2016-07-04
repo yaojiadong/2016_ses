@@ -1,0 +1,793 @@
+Archive member included to satisfy reference by file (symbol)
+
+C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_button.o)
+                              ./scheduler_test.o (button_init)
+C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_led.o)
+                              ./scheduler_test.o (led_redInit)
+C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_scheduler.o)
+                              ./scheduler_test.o (scheduler_init)
+C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_timer.o)
+                              C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_scheduler.o) (timer2_setCallback)
+C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\liblcd.a(ses_lcd.o)
+                              ./scheduler_test.o (lcd_setCursor)
+C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\liblcd.a(ses_lcdDriver.o)
+                              C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\liblcd.a(ses_lcd.o) (lcdDriver_init)
+c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+                              c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtatmega128rfa1.o (exit)
+c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+                              ./scheduler_test.o (__do_copy_data)
+c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+                              ./scheduler_test.o (__do_clear_bss)
+c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_umulhisi3.o)
+                              ./scheduler_test.o (__umulhisi3)
+c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(fprintf.o)
+                              ./scheduler_test.o (fprintf)
+c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(fwrite.o)
+                              ./scheduler_test.o (fwrite)
+c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(vfprintf_std.o)
+                              c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(fprintf.o) (vfprintf)
+c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(strnlen_P.o)
+                              c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(vfprintf_std.o) (strnlen_P)
+c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(strnlen.o)
+                              c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(vfprintf_std.o) (strnlen)
+c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(fputc.o)
+                              c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(vfprintf_std.o) (fputc)
+c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(ultoa_invert.o)
+                              c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(vfprintf_std.o) (__ultoa_invert)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800100         0x0000ff00         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+user_signatures  0x00850000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800200
+LOAD c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtatmega128rfa1.o
+LOAD ./scheduler_test.o
+LOAD C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a
+LOAD C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\liblcd.a
+LOAD C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\libuart.a
+START GROUP
+LOAD c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a
+LOAD c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a
+LOAD c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a
+LOAD c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libatmega128rfa1.a
+END GROUP
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x18de
+ *(.vectors)
+ .vectors       0x00000000      0x120 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtatmega128rfa1.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x00000120                . = ALIGN (0x2)
+                0x00000120                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000120        0x0 linker stubs
+ *(.trampolines*)
+                0x00000120                __trampolines_end = .
+ *(.progmem*)
+                0x00000120                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000120                __ctors_start = .
+ *(.ctors)
+                0x00000120                __ctors_end = .
+                0x00000120                __dtors_start = .
+ *(.dtors)
+                0x00000120                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000120        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtatmega128rfa1.o
+                0x00000120                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000120        0xc c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtatmega128rfa1.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x0000012c       0x1a c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+                0x0000012c                __do_copy_data
+ .init4         0x00000146       0x10 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+                0x00000146                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000156        0x8 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtatmega128rfa1.o
+ *(.init9)
+ *(.text)
+ .text          0x0000015e        0x4 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtatmega128rfa1.o
+                0x0000015e                __vector_38
+                0x0000015e                __vector_22
+                0x0000015e                __vector_63
+                0x0000015e                __vector_28
+                0x0000015e                __vector_67
+                0x0000015e                __vector_1
+                0x0000015e                __vector_32
+                0x0000015e                __vector_71
+                0x0000015e                __vector_34
+                0x0000015e                __vector_62
+                0x0000015e                __vector_24
+                0x0000015e                __vector_12
+                0x0000015e                __vector_55
+                0x0000015e                __vector_69
+                0x0000015e                __vector_46
+                0x0000015e                __bad_interrupt
+                0x0000015e                __vector_6
+                0x0000015e                __vector_31
+                0x0000015e                __vector_35
+                0x0000015e                __vector_39
+                0x0000015e                __vector_3
+                0x0000015e                __vector_23
+                0x0000015e                __vector_68
+                0x0000015e                __vector_30
+                0x0000015e                __vector_45
+                0x0000015e                __vector_25
+                0x0000015e                __vector_61
+                0x0000015e                __vector_11
+                0x0000015e                __vector_54
+                0x0000015e                __vector_19
+                0x0000015e                __vector_56
+                0x0000015e                __vector_7
+                0x0000015e                __vector_49
+                0x0000015e                __vector_41
+                0x0000015e                __vector_64
+                0x0000015e                __vector_43
+                0x0000015e                __vector_27
+                0x0000015e                __vector_5
+                0x0000015e                __vector_33
+                0x0000015e                __vector_47
+                0x0000015e                __vector_52
+                0x0000015e                __vector_37
+                0x0000015e                __vector_4
+                0x0000015e                __vector_44
+                0x0000015e                __vector_51
+                0x0000015e                __vector_2
+                0x0000015e                __vector_21
+                0x0000015e                __vector_15
+                0x0000015e                __vector_66
+                0x0000015e                __vector_36
+                0x0000015e                __vector_58
+                0x0000015e                __vector_70
+                0x0000015e                __vector_29
+                0x0000015e                __vector_60
+                0x0000015e                __vector_40
+                0x0000015e                __vector_8
+                0x0000015e                __vector_26
+                0x0000015e                __vector_48
+                0x0000015e                __vector_14
+                0x0000015e                __vector_57
+                0x0000015e                __vector_53
+                0x0000015e                __vector_10
+                0x0000015e                __vector_50
+                0x0000015e                __vector_16
+                0x0000015e                __vector_59
+                0x0000015e                __vector_18
+                0x0000015e                __vector_20
+                0x0000015e                __vector_42
+                0x0000015e                __vector_65
+ .text          0x00000162        0x0 ./scheduler_test.o
+ .text          0x00000162        0x0 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_button.o)
+ .text          0x00000162        0x0 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_led.o)
+ .text          0x00000162        0x0 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_scheduler.o)
+ .text          0x00000162        0x0 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_timer.o)
+ .text          0x00000162        0x0 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\liblcd.a(ses_lcd.o)
+ .text          0x00000162        0x0 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\liblcd.a(ses_lcdDriver.o)
+ .text          0x00000162        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .text          0x00000162        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+ .text          0x00000162        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+ .text          0x00000162        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_umulhisi3.o)
+ .text          0x00000162        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(fprintf.o)
+ .text          0x00000162        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(fwrite.o)
+ .text          0x00000162        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(vfprintf_std.o)
+ .text          0x00000162        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(strnlen_P.o)
+ .text          0x00000162        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(strnlen.o)
+ .text          0x00000162        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(fputc.o)
+ .text          0x00000162        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(ultoa_invert.o)
+                0x00000162                . = ALIGN (0x2)
+ *(.text.*)
+ .text.main     0x00000162       0xea ./scheduler_test.o
+                0x00000162                main
+ .text.wrapper_greenToggle
+                0x0000024c       0x1c ./scheduler_test.o
+                0x0000024c                wrapper_greenToggle
+ .text.wrapper_button_checkState
+                0x00000268       0x1c ./scheduler_test.o
+                0x00000268                wrapper_button_checkState
+ .text.wrapper_yellowOff
+                0x00000284       0x20 ./scheduler_test.o
+                0x00000284                wrapper_yellowOff
+ .text.control_yellow
+                0x000002a4       0x94 ./scheduler_test.o
+                0x000002a4                control_yellow
+ .text.stopWatch
+                0x00000338       0x2c ./scheduler_test.o
+                0x00000338                stopWatch
+ .text.calc_time
+                0x00000364       0xe8 ./scheduler_test.o
+                0x00000364                calc_time
+ .text.button_init
+                0x0000044c       0xa6 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_button.o)
+                0x0000044c                button_init
+ .text.button_isJoystickPressed
+                0x000004f2       0x20 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_button.o)
+                0x000004f2                button_isJoystickPressed
+ .text.button_isRotaryPressed
+                0x00000512       0x28 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_button.o)
+                0x00000512                button_isRotaryPressed
+ .text.__vector_9
+                0x0000053a       0xa0 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_button.o)
+                0x0000053a                __vector_9
+ .text.button_setRotaryButtonCallback
+                0x000005da       0x24 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_button.o)
+                0x000005da                button_setRotaryButtonCallback
+ .text.button_setJoystickButtonCallback
+                0x000005fe       0x24 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_button.o)
+                0x000005fe                button_setJoystickButtonCallback
+ .text.button_checkState
+                0x00000622      0x132 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_button.o)
+                0x00000622                button_checkState
+ .text.led_redInit
+                0x00000754       0x24 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_led.o)
+                0x00000754                led_redInit
+ .text.led_redToggle
+                0x00000778       0x22 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_led.o)
+                0x00000778                led_redToggle
+ .text.led_redOn
+                0x0000079a       0x20 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_led.o)
+                0x0000079a                led_redOn
+ .text.led_redOff
+                0x000007ba       0x20 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_led.o)
+                0x000007ba                led_redOff
+ .text.led_yellowInit
+                0x000007da       0x24 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_led.o)
+                0x000007da                led_yellowInit
+ .text.led_yellowToggle
+                0x000007fe       0x22 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_led.o)
+                0x000007fe                led_yellowToggle
+ .text.led_yellowOn
+                0x00000820       0x20 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_led.o)
+                0x00000820                led_yellowOn
+ .text.led_yellowOff
+                0x00000840       0x20 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_led.o)
+                0x00000840                led_yellowOff
+ .text.led_greenInit
+                0x00000860       0x24 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_led.o)
+                0x00000860                led_greenInit
+ .text.led_greenToggle
+                0x00000884       0x22 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_led.o)
+                0x00000884                led_greenToggle
+ .text.led_greenOn
+                0x000008a6       0x20 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_led.o)
+                0x000008a6                led_greenOn
+ .text.led_greenOff
+                0x000008c6       0x20 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_led.o)
+                0x000008c6                led_greenOff
+ .text.__iSeiRetVal
+                0x000008e6       0x12 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_scheduler.o)
+ .text.__iCliRetVal
+                0x000008f8       0x12 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_scheduler.o)
+ .text.__iRestore
+                0x0000090a       0x28 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_scheduler.o)
+ .text.scheduler_update
+                0x00000932       0xaa C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_scheduler.o)
+ .text.scheduler_init
+                0x000009dc       0x1a C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_scheduler.o)
+                0x000009dc                scheduler_init
+ .text.scheduler_run
+                0x000009f6       0xdc C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_scheduler.o)
+                0x000009f6                scheduler_run
+ .text.scheduler_add
+                0x00000ad2       0xe6 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_scheduler.o)
+                0x00000ad2                scheduler_add
+ .text.scheduler_remove
+                0x00000bb8       0xe0 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_scheduler.o)
+                0x00000bb8                scheduler_remove
+ .text.scheduler_getTime
+                0x00000c98       0x66 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_scheduler.o)
+                0x00000c98                scheduler_getTime
+ .text.scheduler_setTime
+                0x00000cfe       0x62 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_scheduler.o)
+                0x00000cfe                scheduler_setTime
+ .text.timer2_setCallback
+                0x00000d60       0x24 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_timer.o)
+                0x00000d60                timer2_setCallback
+ .text.timer2_start
+                0x00000d84       0xa8 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_timer.o)
+                0x00000d84                timer2_start
+ .text.timer2_stop
+                0x00000e2c       0x20 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_timer.o)
+                0x00000e2c                timer2_stop
+ .text.timer1_setCallback
+                0x00000e4c       0x24 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_timer.o)
+                0x00000e4c                timer1_setCallback
+ .text.timer1_start
+                0x00000e70       0xbe C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_timer.o)
+                0x00000e70                timer1_start
+ .text.timer1_stop
+                0x00000f2e       0x32 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_timer.o)
+                0x00000f2e                timer1_stop
+ .text.__vector_17
+                0x00000f60       0x6c C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_timer.o)
+                0x00000f60                __vector_17
+ .text.__vector_13
+                0x00000fcc       0x6c C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_timer.o)
+                0x00000fcc                __vector_13
+ .text.lcd_waitBusy
+                0x00001038        0xa C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\liblcd.a(ses_lcd.o)
+ .text.lcd_write
+                0x00001042       0x5c C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\liblcd.a(ses_lcd.o)
+ .text.lcd_setCursor
+                0x0000109e        0xa C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\liblcd.a(ses_lcd.o)
+                0x0000109e                lcd_setCursor
+ .text.lcd_putc
+                0x000010a8       0x80 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\liblcd.a(ses_lcd.o)
+                0x000010a8                lcd_putc
+ .text.put      0x00001128        0xa C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\liblcd.a(ses_lcd.o)
+ .text.lcd_setPixel
+                0x00001132       0x8e C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\liblcd.a(ses_lcd.o)
+                0x00001132                lcd_setPixel
+ .text.lcd_clear
+                0x000011c0       0x46 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\liblcd.a(ses_lcd.o)
+                0x000011c0                lcd_clear
+ .text.lcd_init
+                0x00001206       0x66 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\liblcd.a(ses_lcd.o)
+                0x00001206                lcd_init
+ .text.lcdDriver_init
+                0x0000126c        0xe C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\liblcd.a(ses_lcdDriver.o)
+                0x0000126c                lcdDriver_init
+ .text.lcdDriver_writeData
+                0x0000127a       0x16 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\liblcd.a(ses_lcdDriver.o)
+                0x0000127a                lcdDriver_writeData
+ .text.lcdDriver_writeCommand
+                0x00001290       0x14 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\liblcd.a(ses_lcdDriver.o)
+                0x00001290                lcdDriver_writeCommand
+ .text.lcdDriver_selectController
+                0x000012a4       0x12 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\liblcd.a(ses_lcdDriver.o)
+                0x000012a4                lcdDriver_selectController
+ .text.lcdDriver_readStatus
+                0x000012b6       0x14 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\liblcd.a(ses_lcdDriver.o)
+                0x000012b6                lcdDriver_readStatus
+ .text.libgcc.mul
+                0x000012ca        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x000012ca        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .text.libgcc   0x000012ca        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x000012ca        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x000012ca        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x000012ca        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x000012ca        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x000012ca        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x000012ca        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc   0x000012ca        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x000012ca        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x000012ca        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x000012ca        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x000012ca        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x000012ca        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x000012ca        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x000012ca        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x000012ca        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x000012ca        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x000012ca        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x000012ca        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x000012ca       0x1e c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_umulhisi3.o)
+                0x000012ca                __umulhisi3
+ .text.libgcc.div
+                0x000012e8        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_umulhisi3.o)
+ .text.libgcc   0x000012e8        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_umulhisi3.o)
+ .text.libgcc.prologue
+                0x000012e8        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_umulhisi3.o)
+ .text.libgcc.builtins
+                0x000012e8        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_umulhisi3.o)
+ .text.libgcc.fmul
+                0x000012e8        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_umulhisi3.o)
+ .text.libgcc.fixed
+                0x000012e8        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_umulhisi3.o)
+ .text.avr-libc
+                0x000012e8       0x20 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(fprintf.o)
+                0x000012e8                fprintf
+ .text.avr-libc
+                0x00001308       0x84 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(fwrite.o)
+                0x00001308                fwrite
+ .text.avr-libc
+                0x0000138c      0x3f6 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(vfprintf_std.o)
+                0x0000138c                vfprintf
+ .text.avr-libc
+                0x00001782       0x16 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(strnlen_P.o)
+                0x00001782                strnlen_P
+ .text.avr-libc
+                0x00001798       0x16 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(strnlen.o)
+                0x00001798                strnlen
+ .text.avr-libc
+                0x000017ae       0x70 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(fputc.o)
+                0x000017ae                fputc
+ .text.avr-libc
+                0x0000181e       0xbc c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(ultoa_invert.o)
+                0x0000181e                __ultoa_invert
+                0x000018da                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x000018da        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+                0x000018da                _exit
+                0x000018da                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x000018da        0x4 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ *(.fini0)
+                0x000018de                _etext = .
+
+.data           0x00800200      0x652 load address 0x000018de
+                0x00800200                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtatmega128rfa1.o
+ .data          0x00800200        0x0 ./scheduler_test.o
+ .data          0x00800200        0x0 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_button.o)
+ .data          0x00800200        0x0 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_led.o)
+ .data          0x00800200        0x0 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_scheduler.o)
+ .data          0x00800200        0x0 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_timer.o)
+ .data          0x00800200        0x0 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\liblcd.a(ses_lcd.o)
+ .data          0x00800200        0x0 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\liblcd.a(ses_lcdDriver.o)
+ .data          0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .data          0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+ .data          0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+ .data          0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_umulhisi3.o)
+ .data          0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(fprintf.o)
+ .data          0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(fwrite.o)
+ .data          0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(vfprintf_std.o)
+ .data          0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(strnlen_P.o)
+ .data          0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(strnlen.o)
+ .data          0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(fputc.o)
+ .data          0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(ultoa_invert.o)
+ *(.data*)
+ .data.stop     0x00800200        0x1 ./scheduler_test.o
+ .data.lcdout   0x00800201        0x2 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\liblcd.a(ses_lcd.o)
+                0x00800201                lcdout
+ *(.rodata)
+ .rodata        0x00800203       0x4f ./scheduler_test.o
+ *(.rodata*)
+ .rodata.font6x8
+                0x00800252      0x600 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\liblcd.a(ses_lcd.o)
+                0x00800252                font6x8
+ *(.gnu.linkonce.d*)
+                0x00800852                . = ALIGN (0x2)
+                0x00800852                _edata = .
+                0x00800852                PROVIDE (__data_end, .)
+
+.bss            0x00800852      0x21b
+                0x00800852                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x00800852        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtatmega128rfa1.o
+ .bss           0x00800852        0x0 ./scheduler_test.o
+ .bss           0x00800852        0x0 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_button.o)
+ .bss           0x00800852        0x0 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_led.o)
+ .bss           0x00800852        0x0 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_scheduler.o)
+ .bss           0x00800852        0x0 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_timer.o)
+ .bss           0x00800852        0x0 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\liblcd.a(ses_lcd.o)
+ .bss           0x00800852        0x0 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\liblcd.a(ses_lcdDriver.o)
+ .bss           0x00800852        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .bss           0x00800852        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+ .bss           0x00800852        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+ .bss           0x00800852        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_umulhisi3.o)
+ .bss           0x00800852        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(fprintf.o)
+ .bss           0x00800852        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(fwrite.o)
+ .bss           0x00800852        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(vfprintf_std.o)
+ .bss           0x00800852        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(strnlen_P.o)
+ .bss           0x00800852        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(strnlen.o)
+ .bss           0x00800852        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(fputc.o)
+ .bss           0x00800852        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(ultoa_invert.o)
+ *(.bss*)
+ .bss.state_on  0x00800852        0x1 ./scheduler_test.o
+ .bss.td3.2929  0x00800853        0xb ./scheduler_test.o
+ .bss.time.2936
+                0x0080085e        0x2 ./scheduler_test.o
+ .bss.rotaryCallback
+                0x00800860        0x2 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_button.o)
+ .bss.joystickCallback
+                0x00800862        0x2 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_button.o)
+ .bss.debouncedState.2700
+                0x00800864        0x1 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_button.o)
+ .bss.index.2699
+                0x00800865        0x1 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_button.o)
+ .bss.state.2698
+                0x00800866        0x5 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_button.o)
+ .bss.taskList  0x0080086b        0x2 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_scheduler.o)
+ .bss.timeVar   0x0080086d        0x4 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_scheduler.o)
+ .bss.timer1Callback
+                0x00800871        0x2 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_timer.o)
+ .bss.timer2Callback
+                0x00800873        0x2 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_timer.o)
+ .bss.pixel_memory
+                0x00800875      0x1e8 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\liblcd.a(ses_lcd.o)
+ .bss.row       0x00800a5d        0x1 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\liblcd.a(ses_lcd.o)
+ .bss.pos       0x00800a5e        0x1 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\liblcd.a(ses_lcd.o)
+ .bss.file      0x00800a5f        0xe C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\liblcd.a(ses_lcd.o)
+ *(COMMON)
+                0x00800a6d                PROVIDE (__bss_end, .)
+                0x000018de                __data_load_start = LOADADDR (.data)
+                0x00001f30                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800a6d        0x0
+                0x00800a6d                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00800a6d                PROVIDE (__noinit_end, .)
+                0x00800a6d                _end = .
+                0x00800a6d                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab           0x00000000     0x2f10
+ *(.stab)
+ .stab          0x00000000     0x1254 ./scheduler_test.o
+ .stab          0x00001254      0x720 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_button.o)
+                               0x10f8 (size before relaxing)
+ .stab          0x00001974      0x534 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_led.o)
+                                0xf30 (size before relaxing)
+ .stab          0x00001ea8      0xb04 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_scheduler.o)
+                               0x1518 (size before relaxing)
+ .stab          0x000029ac      0x564 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_timer.o)
+                                0xf78 (size before relaxing)
+
+.stabstr        0x00000000     0x51fa
+ *(.stabstr)
+ .stabstr       0x00000000     0x51fa ./scheduler_test.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x8c
+ *(.comment)
+ .comment       0x00000000       0x30 ./scheduler_test.o
+                                 0x31 (size before relaxing)
+ .comment       0x00000030       0x31 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_button.o)
+ .comment       0x00000030       0x31 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_led.o)
+ .comment       0x00000030       0x31 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_scheduler.o)
+ .comment       0x00000030       0x31 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\Debug\libses.a(ses_timer.o)
+ .comment       0x00000030       0x30 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\liblcd.a(ses_lcd.o)
+                                 0x31 (size before relaxing)
+ .comment       0x00000060       0x31 C:\Users\Jiadong\OneDrive\Master\1.2\Embedded system\workspace\ses\liblcd.a(ses_lcdDriver.o)
+ .comment       0x00000060       0x31 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(fprintf.o)
+ .comment       0x00000060       0x31 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(fwrite.o)
+ .comment       0x00000060       0x2c c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(vfprintf_std.o)
+                                 0x2d (size before relaxing)
+ .comment       0x0000008c       0x31 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(fputc.o)
+
+.note.gnu.avr.deviceinfo
+                0x00000000       0x40
+ .note.gnu.avr.deviceinfo
+                0x00000000       0x40 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtatmega128rfa1.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line .debug_line.* .debug_line_end)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(5_ex.elf elf32-avr)
+LOAD linker stubs

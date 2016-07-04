@@ -1,0 +1,3 @@
+The tasks are toggling the LEDs, which have to make use of led functionality.
+However since timer1 is used, this project is not linked to the ses library in order to avoid the influence of interrupt from library. 
+That is the reason I copy the ses_led.c ses_led.h and ses_common.h into this project.

@@ -1,0 +1,563 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+                              c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtatmega128rfa1.o (exit)
+c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+                              ./main.o (__do_copy_data)
+c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+                              ./pscheduler.o (__do_clear_bss)
+c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(fputs.o)
+                              ./main.o (fputs)
+
+Allocating common symbols
+Common symbol       size              file
+
+pxCurrentTCB        0x2               ./pscheduler.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800100         0x0000ff00         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+user_signatures  0x00850000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800200
+LOAD c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtatmega128rfa1.o
+LOAD ./challenge.o
+LOAD ./main.o
+LOAD ./pscheduler.o
+LOAD ./ses_led.o
+START GROUP
+LOAD c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a
+LOAD c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a
+LOAD c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a
+LOAD c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libatmega128rfa1.a
+END GROUP
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000      0x442
+ *(.vectors)
+ .vectors       0x00000000      0x120 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtatmega128rfa1.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x00000120                . = ALIGN (0x2)
+                0x00000120                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000120        0x0 linker stubs
+ *(.trampolines*)
+                0x00000120                __trampolines_end = .
+ *(.progmem*)
+                0x00000120                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000120                __ctors_start = .
+ *(.ctors)
+                0x00000120                __ctors_end = .
+                0x00000120                __dtors_start = .
+ *(.dtors)
+                0x00000120                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000120        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtatmega128rfa1.o
+                0x00000120                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000120        0xc c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtatmega128rfa1.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x0000012c       0x1a c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+                0x0000012c                __do_copy_data
+ .init4         0x00000146       0x10 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+                0x00000146                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000156        0x8 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtatmega128rfa1.o
+ *(.init9)
+ *(.text)
+ .text          0x0000015e        0x4 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtatmega128rfa1.o
+                0x0000015e                __vector_38
+                0x0000015e                __vector_22
+                0x0000015e                __vector_63
+                0x0000015e                __vector_28
+                0x0000015e                __vector_67
+                0x0000015e                __vector_1
+                0x0000015e                __vector_32
+                0x0000015e                __vector_71
+                0x0000015e                __vector_34
+                0x0000015e                __vector_62
+                0x0000015e                __vector_24
+                0x0000015e                __vector_12
+                0x0000015e                __vector_55
+                0x0000015e                __vector_69
+                0x0000015e                __vector_46
+                0x0000015e                __bad_interrupt
+                0x0000015e                __vector_6
+                0x0000015e                __vector_31
+                0x0000015e                __vector_35
+                0x0000015e                __vector_39
+                0x0000015e                __vector_3
+                0x0000015e                __vector_23
+                0x0000015e                __vector_68
+                0x0000015e                __vector_30
+                0x0000015e                __vector_45
+                0x0000015e                __vector_25
+                0x0000015e                __vector_61
+                0x0000015e                __vector_11
+                0x0000015e                __vector_54
+                0x0000015e                __vector_13
+                0x0000015e                __vector_19
+                0x0000015e                __vector_56
+                0x0000015e                __vector_7
+                0x0000015e                __vector_49
+                0x0000015e                __vector_41
+                0x0000015e                __vector_64
+                0x0000015e                __vector_43
+                0x0000015e                __vector_27
+                0x0000015e                __vector_5
+                0x0000015e                __vector_33
+                0x0000015e                __vector_47
+                0x0000015e                __vector_52
+                0x0000015e                __vector_37
+                0x0000015e                __vector_4
+                0x0000015e                __vector_44
+                0x0000015e                __vector_51
+                0x0000015e                __vector_9
+                0x0000015e                __vector_2
+                0x0000015e                __vector_21
+                0x0000015e                __vector_15
+                0x0000015e                __vector_66
+                0x0000015e                __vector_36
+                0x0000015e                __vector_58
+                0x0000015e                __vector_70
+                0x0000015e                __vector_29
+                0x0000015e                __vector_60
+                0x0000015e                __vector_40
+                0x0000015e                __vector_8
+                0x0000015e                __vector_26
+                0x0000015e                __vector_48
+                0x0000015e                __vector_14
+                0x0000015e                __vector_57
+                0x0000015e                __vector_53
+                0x0000015e                __vector_10
+                0x0000015e                __vector_50
+                0x0000015e                __vector_16
+                0x0000015e                __vector_59
+                0x0000015e                __vector_18
+                0x0000015e                __vector_20
+                0x0000015e                __vector_42
+                0x0000015e                __vector_65
+ .text          0x00000162        0x0 ./challenge.o
+ .text          0x00000162        0x0 ./main.o
+ .text          0x00000162        0x0 ./pscheduler.o
+ .text          0x00000162        0x0 ./ses_led.o
+ .text          0x00000162        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .text          0x00000162        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+ .text          0x00000162        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+ .text          0x00000162        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(fputs.o)
+                0x00000162                . = ALIGN (0x2)
+ *(.text.*)
+ .text.taskA    0x00000162       0x12 ./main.o
+                0x00000162                taskA
+ .text.taskB    0x00000174        0x6 ./main.o
+                0x00000174                taskB
+ .text.taskC    0x0000017a        0x6 ./main.o
+                0x0000017a                taskC
+ .text.startup.main
+                0x00000180       0x20 ./main.o
+                0x00000180                main
+ .text.pscheduler_run
+                0x000001a0      0x126 ./pscheduler.o
+                0x000001a0                pscheduler_run
+ .text.__vector_17
+                0x000002c6       0xda ./pscheduler.o
+                0x000002c6                __vector_17
+ .text.led_redToggle
+                0x000003a0        0xa ./ses_led.o
+                0x000003a0                led_redToggle
+ .text.led_redOn
+                0x000003aa        0x4 ./ses_led.o
+                0x000003aa                led_redOn
+ .text.led_redOff
+                0x000003ae        0x4 ./ses_led.o
+                0x000003ae                led_redOff
+ .text.led_redInit
+                0x000003b2        0x6 ./ses_led.o
+                0x000003b2                led_redInit
+ .text.led_yellowToggle
+                0x000003b8        0x8 ./ses_led.o
+                0x000003b8                led_yellowToggle
+ .text.led_yellowOn
+                0x000003c0        0x4 ./ses_led.o
+                0x000003c0                led_yellowOn
+ .text.led_yellowOff
+                0x000003c4        0x4 ./ses_led.o
+                0x000003c4                led_yellowOff
+ .text.led_yellowInit
+                0x000003c8        0x6 ./ses_led.o
+                0x000003c8                led_yellowInit
+ .text.led_greenToggle
+                0x000003ce        0xa ./ses_led.o
+                0x000003ce                led_greenToggle
+ .text.led_greenOn
+                0x000003d8        0x4 ./ses_led.o
+                0x000003d8                led_greenOn
+ .text.led_greenOff
+                0x000003dc        0x4 ./ses_led.o
+                0x000003dc                led_greenOff
+ .text.led_greenInit
+                0x000003e0        0x6 ./ses_led.o
+                0x000003e0                led_greenInit
+ .text.libgcc.mul
+                0x000003e6        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x000003e6        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .text.libgcc   0x000003e6        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x000003e6        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x000003e6        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x000003e6        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x000003e6        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x000003e6        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x000003e6        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc   0x000003e6        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x000003e6        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x000003e6        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x000003e6        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x000003e6        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x000003e6        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x000003e6        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x000003e6        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x000003e6        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x000003e6        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x000003e6        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x000003e6        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+ .text.avr-libc
+                0x000003e6       0x58 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(fputs.o)
+                0x000003e6                fputs
+                0x0000043e                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x0000043e        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+                0x0000043e                _exit
+                0x0000043e                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x0000043e        0x4 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00000442                _etext = .
+
+.data           0x00800200       0x1c load address 0x00000442
+                0x00800200                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtatmega128rfa1.o
+ .data          0x00800200        0x0 ./challenge.o
+ .data          0x00800200        0x0 ./main.o
+ .data          0x00800200        0x0 ./pscheduler.o
+ .data          0x00800200        0x0 ./ses_led.o
+ .data          0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .data          0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+ .data          0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+ .data          0x00800200        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(fputs.o)
+ *(.data*)
+ .data.taskList
+                0x00800200        0x6 ./main.o
+                0x00800200                taskList
+ .data.my_context.2867
+                0x00800206        0x2 ./pscheduler.o
+ *(.rodata)
+ *(.rodata*)
+ .rodata.str1.1
+                0x00800208       0x13 ./main.o
+ *(.gnu.linkonce.d*)
+                0x0080021c                . = ALIGN (0x2)
+ *fill*         0x0080021b        0x1 
+                0x0080021c                _edata = .
+                0x0080021c                PROVIDE (__data_end, .)
+
+.bss            0x0080021c     0x1452
+                0x0080021c                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x0080021c        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtatmega128rfa1.o
+ .bss           0x0080021c        0x0 ./challenge.o
+ .bss           0x0080021c        0x0 ./main.o
+ .bss           0x0080021c        0x0 ./pscheduler.o
+ .bss           0x0080021c        0x0 ./ses_led.o
+ .bss           0x0080021c        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .bss           0x0080021c        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+ .bss           0x0080021c        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+ .bss           0x0080021c        0x0 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(fputs.o)
+ *(.bss*)
+ .bss.contextArray
+                0x0080021c     0x1450 ./pscheduler.o
+ *(COMMON)
+ COMMON         0x0080166c        0x2 ./pscheduler.o
+                0x0080166c                pxCurrentTCB
+                0x0080166e                PROVIDE (__bss_end, .)
+                0x00000442                __data_load_start = LOADADDR (.data)
+                0x0000045e                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0080166e        0x0
+                0x0080166e                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x0080166e                PROVIDE (__noinit_end, .)
+                0x0080166e                _end = .
+                0x0080166e                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x30
+ *(.comment)
+ .comment       0x00000000       0x30 ./challenge.o
+                                 0x31 (size before relaxing)
+ .comment       0x00000030       0x31 ./main.o
+ .comment       0x00000030       0x31 ./pscheduler.o
+ .comment       0x00000030       0x31 ./ses_led.o
+ .comment       0x00000030       0x31 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(fputs.o)
+
+.note.gnu.avr.deviceinfo
+                0x00000000       0x40
+ .note.gnu.avr.deviceinfo
+                0x00000000       0x40 c:/users/jiadong/onedrive/master/1.2/embedded system/tool/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtatmega128rfa1.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line .debug_line.* .debug_line_end)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(5_multitasking.elf elf32-avr)
+LOAD linker stubs

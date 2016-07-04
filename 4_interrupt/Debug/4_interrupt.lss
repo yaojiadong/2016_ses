@@ -1,0 +1,1220 @@
+
+4_interrupt.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .data         00000000  00800200  0000099a  00000a2e  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  1 .text         0000099a  00000000  00000000  00000094  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .bss          00000013  00800200  00800200  00000a2e  2**0
+                  ALLOC
+  3 .stab         00002094  00000000  00000000  00000a30  2**2
+                  CONTENTS, READONLY, DEBUGGING
+  4 .stabstr      00004948  00000000  00000000  00002ac4  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  5 .comment      00000030  00000000  00000000  0000740c  2**0
+                  CONTENTS, READONLY
+  6 .note.gnu.avr.deviceinfo 00000040  00000000  00000000  0000743c  2**2
+                  CONTENTS, READONLY
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	0c 94 90 00 	jmp	0x120	; 0x120 <__ctors_end>
+   4:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+   8:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+   c:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  10:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  14:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  18:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  1c:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  20:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  24:	0c 94 89 01 	jmp	0x312	; 0x312 <__vector_9>
+  28:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  2c:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  30:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  34:	0c 94 95 04 	jmp	0x92a	; 0x92a <__vector_13>
+  38:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  3c:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  40:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  44:	0c 94 5f 04 	jmp	0x8be	; 0x8be <__vector_17>
+  48:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  4c:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  50:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  54:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  58:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  5c:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  60:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  64:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  68:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  6c:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  70:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  74:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  78:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  7c:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  80:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  84:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  88:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  8c:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  90:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  94:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  98:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  9c:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  a0:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  a4:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  a8:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  ac:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  b0:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  b4:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  b8:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  bc:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  c0:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  c4:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  c8:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  cc:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  d0:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  d4:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  d8:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  dc:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  e0:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  e4:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  e8:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  ec:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  f0:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  f4:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  f8:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+  fc:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+ 100:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+ 104:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+ 108:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+ 10c:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+ 110:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+ 114:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+ 118:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+ 11c:	0c 94 a2 00 	jmp	0x144	; 0x144 <__bad_interrupt>
+
+00000120 <__ctors_end>:
+ 120:	11 24       	eor	r1, r1
+ 122:	1f be       	out	0x3f, r1	; 63
+ 124:	cf ef       	ldi	r28, 0xFF	; 255
+ 126:	d1 e4       	ldi	r29, 0x41	; 65
+ 128:	de bf       	out	0x3e, r29	; 62
+ 12a:	cd bf       	out	0x3d, r28	; 61
+
+0000012c <__do_clear_bss>:
+ 12c:	22 e0       	ldi	r18, 0x02	; 2
+ 12e:	a0 e0       	ldi	r26, 0x00	; 0
+ 130:	b2 e0       	ldi	r27, 0x02	; 2
+ 132:	01 c0       	rjmp	.+2      	; 0x136 <.do_clear_bss_start>
+
+00000134 <.do_clear_bss_loop>:
+ 134:	1d 92       	st	X+, r1
+
+00000136 <.do_clear_bss_start>:
+ 136:	a3 31       	cpi	r26, 0x13	; 19
+ 138:	b2 07       	cpc	r27, r18
+ 13a:	e1 f7       	brne	.-8      	; 0x134 <.do_clear_bss_loop>
+ 13c:	0e 94 a4 00 	call	0x148	; 0x148 <main>
+ 140:	0c 94 cb 04 	jmp	0x996	; 0x996 <_exit>
+
+00000144 <__bad_interrupt>:
+ 144:	0c 94 00 00 	jmp	0	; 0x0 <__vectors>
+
+00000148 <main>:
+void test_timer1(void);
+
+int count1, count2;
+//where to put ISR???
+
+int main() {
+ 148:	cf 93       	push	r28
+ 14a:	df 93       	push	r29
+ 14c:	00 d0       	rcall	.+0      	; 0x14e <main+0x6>
+ 14e:	00 d0       	rcall	.+0      	; 0x150 <main+0x8>
+ 150:	00 d0       	rcall	.+0      	; 0x152 <main+0xa>
+ 152:	cd b7       	in	r28, 0x3d	; 61
+ 154:	de b7       	in	r29, 0x3e	; 62
+	pButtonCallback redLed, greenLed;
+	pTimerCallback timer1Callback, timer2Callback;
+
+//initialization
+	led_redInit();
+ 156:	0e 94 96 02 	call	0x52c	; 0x52c <led_redInit>
+	led_greenInit();
+ 15a:	0e 94 1c 03 	call	0x638	; 0x638 <led_greenInit>
+	led_yellowInit();
+ 15e:	0e 94 d9 02 	call	0x5b2	; 0x5b2 <led_yellowInit>
+	button_init(true); //timer1_start is called there
+ 162:	81 e0       	ldi	r24, 0x01	; 1
+ 164:	0e 94 12 01 	call	0x224	; 0x224 <button_init>
+
+//	timer1_start();
+	timer2_start();
+ 168:	0e 94 71 03 	call	0x6e2	; 0x6e2 <timer2_start>
+
+	count1 = 0;
+ 16c:	10 92 12 02 	sts	0x0212, r1
+ 170:	10 92 11 02 	sts	0x0211, r1
+	count2 = 0;
+ 174:	10 92 10 02 	sts	0x0210, r1
+ 178:	10 92 0f 02 	sts	0x020F, r1
+
+	redLed = &led_redToggle;
+ 17c:	88 ea       	ldi	r24, 0xA8	; 168
+ 17e:	92 e0       	ldi	r25, 0x02	; 2
+ 180:	9a 83       	std	Y+2, r25	; 0x02
+ 182:	89 83       	std	Y+1, r24	; 0x01
+	greenLed = &led_greenToggle;
+ 184:	8e e2       	ldi	r24, 0x2E	; 46
+ 186:	93 e0       	ldi	r25, 0x03	; 3
+ 188:	9c 83       	std	Y+4, r25	; 0x04
+ 18a:	8b 83       	std	Y+3, r24	; 0x03
+
+//	timer1Callback = &test_timer1;
+	timer2Callback = &softwareTimer;
+ 18c:	88 ed       	ldi	r24, 0xD8	; 216
+ 18e:	90 e0       	ldi	r25, 0x00	; 0
+ 190:	9e 83       	std	Y+6, r25	; 0x06
+ 192:	8d 83       	std	Y+5, r24	; 0x05
+
+//pass function
+	button_setRotaryButtonCallback(redLed);
+ 194:	89 81       	ldd	r24, Y+1	; 0x01
+ 196:	9a 81       	ldd	r25, Y+2	; 0x02
+ 198:	0e 94 d9 01 	call	0x3b2	; 0x3b2 <button_setRotaryButtonCallback>
+	button_setJoystickButtonCallback(greenLed);
+ 19c:	8b 81       	ldd	r24, Y+3	; 0x03
+ 19e:	9c 81       	ldd	r25, Y+4	; 0x04
+ 1a0:	0e 94 eb 01 	call	0x3d6	; 0x3d6 <button_setJoystickButtonCallback>
+//if button_init(false) then we have to set a callback function.
+//when button_init(true), the debouncing function is set as callback function
+//which has been done in the button.c
+
+//	timer1_setCallback(timer1Callback);
+	timer2_setCallback(timer2Callback);
+ 1a4:	8d 81       	ldd	r24, Y+5	; 0x05
+ 1a6:	9e 81       	ldd	r25, Y+6	; 0x06
+ 1a8:	0e 94 5f 03 	call	0x6be	; 0x6be <timer2_setCallback>
+
+	sei();
+ 1ac:	78 94       	sei
+
+	while (1) {
+	}
+ 1ae:	ff cf       	rjmp	.-2      	; 0x1ae <main+0x66>
+
+000001b0 <softwareTimer>:
+
+}
+
+void softwareTimer() {
+ 1b0:	cf 93       	push	r28
+ 1b2:	df 93       	push	r29
+ 1b4:	cd b7       	in	r28, 0x3d	; 61
+ 1b6:	de b7       	in	r29, 0x3e	; 62
+	count2++;
+ 1b8:	80 91 0f 02 	lds	r24, 0x020F
+ 1bc:	90 91 10 02 	lds	r25, 0x0210
+ 1c0:	01 96       	adiw	r24, 0x01	; 1
+ 1c2:	90 93 10 02 	sts	0x0210, r25
+ 1c6:	80 93 0f 02 	sts	0x020F, r24
+	if (count2 == 1000) {
+ 1ca:	80 91 0f 02 	lds	r24, 0x020F
+ 1ce:	90 91 10 02 	lds	r25, 0x0210
+ 1d2:	88 3e       	cpi	r24, 0xE8	; 232
+ 1d4:	93 40       	sbci	r25, 0x03	; 3
+ 1d6:	31 f4       	brne	.+12     	; 0x1e4 <softwareTimer+0x34>
+		led_yellowToggle();
+ 1d8:	0e 94 eb 02 	call	0x5d6	; 0x5d6 <led_yellowToggle>
+		count2 = 0;
+ 1dc:	10 92 10 02 	sts	0x0210, r1
+ 1e0:	10 92 0f 02 	sts	0x020F, r1
+	}
+}
+ 1e4:	df 91       	pop	r29
+ 1e6:	cf 91       	pop	r28
+ 1e8:	08 95       	ret
+
+000001ea <test_timer1>:
+
+void test_timer1()
+{
+ 1ea:	cf 93       	push	r28
+ 1ec:	df 93       	push	r29
+ 1ee:	cd b7       	in	r28, 0x3d	; 61
+ 1f0:	de b7       	in	r29, 0x3e	; 62
+	count1++;
+ 1f2:	80 91 11 02 	lds	r24, 0x0211
+ 1f6:	90 91 12 02 	lds	r25, 0x0212
+ 1fa:	01 96       	adiw	r24, 0x01	; 1
+ 1fc:	90 93 12 02 	sts	0x0212, r25
+ 200:	80 93 11 02 	sts	0x0211, r24
+	if(count1 == 200)
+ 204:	80 91 11 02 	lds	r24, 0x0211
+ 208:	90 91 12 02 	lds	r25, 0x0212
+ 20c:	88 3c       	cpi	r24, 0xC8	; 200
+ 20e:	91 05       	cpc	r25, r1
+ 210:	31 f4       	brne	.+12     	; 0x21e <test_timer1+0x34>
+	{
+		led_redToggle();
+ 212:	0e 94 a8 02 	call	0x550	; 0x550 <led_redToggle>
+		count1 = 0;
+ 216:	10 92 12 02 	sts	0x0212, r1
+ 21a:	10 92 11 02 	sts	0x0211, r1
+	}
+}
+ 21e:	df 91       	pop	r29
+ 220:	cf 91       	pop	r28
+ 222:	08 95       	ret
+
+00000224 <button_init>:
+ 224:	cf 93       	push	r28
+ 226:	df 93       	push	r29
+ 228:	1f 92       	push	r1
+ 22a:	cd b7       	in	r28, 0x3d	; 61
+ 22c:	de b7       	in	r29, 0x3e	; 62
+ 22e:	89 83       	std	Y+1, r24	; 0x01
+ 230:	84 e2       	ldi	r24, 0x24	; 36
+ 232:	90 e0       	ldi	r25, 0x00	; 0
+ 234:	24 e2       	ldi	r18, 0x24	; 36
+ 236:	30 e0       	ldi	r19, 0x00	; 0
+ 238:	f9 01       	movw	r30, r18
+ 23a:	20 81       	ld	r18, Z
+ 23c:	2f 7b       	andi	r18, 0xBF	; 191
+ 23e:	fc 01       	movw	r30, r24
+ 240:	20 83       	st	Z, r18
+ 242:	84 e2       	ldi	r24, 0x24	; 36
+ 244:	90 e0       	ldi	r25, 0x00	; 0
+ 246:	24 e2       	ldi	r18, 0x24	; 36
+ 248:	30 e0       	ldi	r19, 0x00	; 0
+ 24a:	f9 01       	movw	r30, r18
+ 24c:	20 81       	ld	r18, Z
+ 24e:	2f 77       	andi	r18, 0x7F	; 127
+ 250:	fc 01       	movw	r30, r24
+ 252:	20 83       	st	Z, r18
+ 254:	85 e2       	ldi	r24, 0x25	; 37
+ 256:	90 e0       	ldi	r25, 0x00	; 0
+ 258:	25 e2       	ldi	r18, 0x25	; 37
+ 25a:	30 e0       	ldi	r19, 0x00	; 0
+ 25c:	f9 01       	movw	r30, r18
+ 25e:	20 81       	ld	r18, Z
+ 260:	20 64       	ori	r18, 0x40	; 64
+ 262:	fc 01       	movw	r30, r24
+ 264:	20 83       	st	Z, r18
+ 266:	85 e2       	ldi	r24, 0x25	; 37
+ 268:	90 e0       	ldi	r25, 0x00	; 0
+ 26a:	25 e2       	ldi	r18, 0x25	; 37
+ 26c:	30 e0       	ldi	r19, 0x00	; 0
+ 26e:	f9 01       	movw	r30, r18
+ 270:	20 81       	ld	r18, Z
+ 272:	20 68       	ori	r18, 0x80	; 128
+ 274:	fc 01       	movw	r30, r24
+ 276:	20 83       	st	Z, r18
+ 278:	89 81       	ldd	r24, Y+1	; 0x01
+ 27a:	88 23       	and	r24, r24
+ 27c:	39 f0       	breq	.+14     	; 0x28c <button_init+0x68>
+ 27e:	0e 94 e7 03 	call	0x7ce	; 0x7ce <timer1_start>
+ 282:	8d ef       	ldi	r24, 0xFD	; 253
+ 284:	91 e0       	ldi	r25, 0x01	; 1
+ 286:	0e 94 d5 03 	call	0x7aa	; 0x7aa <timer1_setCallback>
+ 28a:	1b c0       	rjmp	.+54     	; 0x2c2 <button_init+0x9e>
+ 28c:	88 e6       	ldi	r24, 0x68	; 104
+ 28e:	90 e0       	ldi	r25, 0x00	; 0
+ 290:	28 e6       	ldi	r18, 0x68	; 104
+ 292:	30 e0       	ldi	r19, 0x00	; 0
+ 294:	f9 01       	movw	r30, r18
+ 296:	20 81       	ld	r18, Z
+ 298:	21 60       	ori	r18, 0x01	; 1
+ 29a:	fc 01       	movw	r30, r24
+ 29c:	20 83       	st	Z, r18
+ 29e:	8b e6       	ldi	r24, 0x6B	; 107
+ 2a0:	90 e0       	ldi	r25, 0x00	; 0
+ 2a2:	2b e6       	ldi	r18, 0x6B	; 107
+ 2a4:	30 e0       	ldi	r19, 0x00	; 0
+ 2a6:	f9 01       	movw	r30, r18
+ 2a8:	20 81       	ld	r18, Z
+ 2aa:	20 64       	ori	r18, 0x40	; 64
+ 2ac:	fc 01       	movw	r30, r24
+ 2ae:	20 83       	st	Z, r18
+ 2b0:	8b e6       	ldi	r24, 0x6B	; 107
+ 2b2:	90 e0       	ldi	r25, 0x00	; 0
+ 2b4:	2b e6       	ldi	r18, 0x6B	; 107
+ 2b6:	30 e0       	ldi	r19, 0x00	; 0
+ 2b8:	f9 01       	movw	r30, r18
+ 2ba:	20 81       	ld	r18, Z
+ 2bc:	20 68       	ori	r18, 0x80	; 128
+ 2be:	fc 01       	movw	r30, r24
+ 2c0:	20 83       	st	Z, r18
+ 2c2:	0f 90       	pop	r0
+ 2c4:	df 91       	pop	r29
+ 2c6:	cf 91       	pop	r28
+ 2c8:	08 95       	ret
+
+000002ca <button_isJoystickPressed>:
+ 2ca:	cf 93       	push	r28
+ 2cc:	df 93       	push	r29
+ 2ce:	cd b7       	in	r28, 0x3d	; 61
+ 2d0:	de b7       	in	r29, 0x3e	; 62
+ 2d2:	83 e2       	ldi	r24, 0x23	; 35
+ 2d4:	90 e0       	ldi	r25, 0x00	; 0
+ 2d6:	fc 01       	movw	r30, r24
+ 2d8:	80 81       	ld	r24, Z
+ 2da:	88 23       	and	r24, r24
+ 2dc:	14 f4       	brge	.+4      	; 0x2e2 <button_isJoystickPressed+0x18>
+ 2de:	80 e0       	ldi	r24, 0x00	; 0
+ 2e0:	01 c0       	rjmp	.+2      	; 0x2e4 <button_isJoystickPressed+0x1a>
+ 2e2:	81 e0       	ldi	r24, 0x01	; 1
+ 2e4:	df 91       	pop	r29
+ 2e6:	cf 91       	pop	r28
+ 2e8:	08 95       	ret
+
+000002ea <button_isRotaryPressed>:
+ 2ea:	cf 93       	push	r28
+ 2ec:	df 93       	push	r29
+ 2ee:	cd b7       	in	r28, 0x3d	; 61
+ 2f0:	de b7       	in	r29, 0x3e	; 62
+ 2f2:	83 e2       	ldi	r24, 0x23	; 35
+ 2f4:	90 e0       	ldi	r25, 0x00	; 0
+ 2f6:	fc 01       	movw	r30, r24
+ 2f8:	80 81       	ld	r24, Z
+ 2fa:	88 2f       	mov	r24, r24
+ 2fc:	90 e0       	ldi	r25, 0x00	; 0
+ 2fe:	80 74       	andi	r24, 0x40	; 64
+ 300:	99 27       	eor	r25, r25
+ 302:	89 2b       	or	r24, r25
+ 304:	11 f0       	breq	.+4      	; 0x30a <button_isRotaryPressed+0x20>
+ 306:	80 e0       	ldi	r24, 0x00	; 0
+ 308:	01 c0       	rjmp	.+2      	; 0x30c <button_isRotaryPressed+0x22>
+ 30a:	81 e0       	ldi	r24, 0x01	; 1
+ 30c:	df 91       	pop	r29
+ 30e:	cf 91       	pop	r28
+ 310:	08 95       	ret
+
+00000312 <__vector_9>:
+ 312:	1f 92       	push	r1
+ 314:	0f 92       	push	r0
+ 316:	00 90 5f 00 	lds	r0, 0x005F
+ 31a:	0f 92       	push	r0
+ 31c:	11 24       	eor	r1, r1
+ 31e:	00 90 5b 00 	lds	r0, 0x005B
+ 322:	0f 92       	push	r0
+ 324:	2f 93       	push	r18
+ 326:	3f 93       	push	r19
+ 328:	4f 93       	push	r20
+ 32a:	5f 93       	push	r21
+ 32c:	6f 93       	push	r22
+ 32e:	7f 93       	push	r23
+ 330:	8f 93       	push	r24
+ 332:	9f 93       	push	r25
+ 334:	af 93       	push	r26
+ 336:	bf 93       	push	r27
+ 338:	ef 93       	push	r30
+ 33a:	ff 93       	push	r31
+ 33c:	cf 93       	push	r28
+ 33e:	df 93       	push	r29
+ 340:	cd b7       	in	r28, 0x3d	; 61
+ 342:	de b7       	in	r29, 0x3e	; 62
+ 344:	0e 94 75 01 	call	0x2ea	; 0x2ea <button_isRotaryPressed>
+ 348:	88 23       	and	r24, r24
+ 34a:	61 f0       	breq	.+24     	; 0x364 <__vector_9+0x52>
+ 34c:	80 91 00 02 	lds	r24, 0x0200
+ 350:	90 91 01 02 	lds	r25, 0x0201
+ 354:	89 2b       	or	r24, r25
+ 356:	31 f0       	breq	.+12     	; 0x364 <__vector_9+0x52>
+ 358:	80 91 00 02 	lds	r24, 0x0200
+ 35c:	90 91 01 02 	lds	r25, 0x0201
+ 360:	fc 01       	movw	r30, r24
+ 362:	09 95       	icall
+ 364:	0e 94 65 01 	call	0x2ca	; 0x2ca <button_isJoystickPressed>
+ 368:	88 23       	and	r24, r24
+ 36a:	61 f0       	breq	.+24     	; 0x384 <__vector_9+0x72>
+ 36c:	80 91 02 02 	lds	r24, 0x0202
+ 370:	90 91 03 02 	lds	r25, 0x0203
+ 374:	89 2b       	or	r24, r25
+ 376:	31 f0       	breq	.+12     	; 0x384 <__vector_9+0x72>
+ 378:	80 91 02 02 	lds	r24, 0x0202
+ 37c:	90 91 03 02 	lds	r25, 0x0203
+ 380:	fc 01       	movw	r30, r24
+ 382:	09 95       	icall
+ 384:	df 91       	pop	r29
+ 386:	cf 91       	pop	r28
+ 388:	ff 91       	pop	r31
+ 38a:	ef 91       	pop	r30
+ 38c:	bf 91       	pop	r27
+ 38e:	af 91       	pop	r26
+ 390:	9f 91       	pop	r25
+ 392:	8f 91       	pop	r24
+ 394:	7f 91       	pop	r23
+ 396:	6f 91       	pop	r22
+ 398:	5f 91       	pop	r21
+ 39a:	4f 91       	pop	r20
+ 39c:	3f 91       	pop	r19
+ 39e:	2f 91       	pop	r18
+ 3a0:	0f 90       	pop	r0
+ 3a2:	00 92 5b 00 	sts	0x005B, r0
+ 3a6:	0f 90       	pop	r0
+ 3a8:	00 92 5f 00 	sts	0x005F, r0
+ 3ac:	0f 90       	pop	r0
+ 3ae:	1f 90       	pop	r1
+ 3b0:	18 95       	reti
+
+000003b2 <button_setRotaryButtonCallback>:
+ 3b2:	cf 93       	push	r28
+ 3b4:	df 93       	push	r29
+ 3b6:	00 d0       	rcall	.+0      	; 0x3b8 <button_setRotaryButtonCallback+0x6>
+ 3b8:	cd b7       	in	r28, 0x3d	; 61
+ 3ba:	de b7       	in	r29, 0x3e	; 62
+ 3bc:	9a 83       	std	Y+2, r25	; 0x02
+ 3be:	89 83       	std	Y+1, r24	; 0x01
+ 3c0:	89 81       	ldd	r24, Y+1	; 0x01
+ 3c2:	9a 81       	ldd	r25, Y+2	; 0x02
+ 3c4:	90 93 01 02 	sts	0x0201, r25
+ 3c8:	80 93 00 02 	sts	0x0200, r24
+ 3cc:	0f 90       	pop	r0
+ 3ce:	0f 90       	pop	r0
+ 3d0:	df 91       	pop	r29
+ 3d2:	cf 91       	pop	r28
+ 3d4:	08 95       	ret
+
+000003d6 <button_setJoystickButtonCallback>:
+ 3d6:	cf 93       	push	r28
+ 3d8:	df 93       	push	r29
+ 3da:	00 d0       	rcall	.+0      	; 0x3dc <button_setJoystickButtonCallback+0x6>
+ 3dc:	cd b7       	in	r28, 0x3d	; 61
+ 3de:	de b7       	in	r29, 0x3e	; 62
+ 3e0:	9a 83       	std	Y+2, r25	; 0x02
+ 3e2:	89 83       	std	Y+1, r24	; 0x01
+ 3e4:	89 81       	ldd	r24, Y+1	; 0x01
+ 3e6:	9a 81       	ldd	r25, Y+2	; 0x02
+ 3e8:	90 93 03 02 	sts	0x0203, r25
+ 3ec:	80 93 02 02 	sts	0x0202, r24
+ 3f0:	0f 90       	pop	r0
+ 3f2:	0f 90       	pop	r0
+ 3f4:	df 91       	pop	r29
+ 3f6:	cf 91       	pop	r28
+ 3f8:	08 95       	ret
+
+000003fa <button_checkState>:
+ 3fa:	cf 93       	push	r28
+ 3fc:	df 93       	push	r29
+ 3fe:	00 d0       	rcall	.+0      	; 0x400 <button_checkState+0x6>
+ 400:	1f 92       	push	r1
+ 402:	cd b7       	in	r28, 0x3d	; 61
+ 404:	de b7       	in	r29, 0x3e	; 62
+ 406:	80 91 04 02 	lds	r24, 0x0204
+ 40a:	8b 83       	std	Y+3, r24	; 0x03
+ 40c:	80 91 05 02 	lds	r24, 0x0205
+ 410:	88 2f       	mov	r24, r24
+ 412:	90 e0       	ldi	r25, 0x00	; 0
+ 414:	8a 5f       	subi	r24, 0xFA	; 250
+ 416:	9d 4f       	sbci	r25, 0xFD	; 253
+ 418:	fc 01       	movw	r30, r24
+ 41a:	10 82       	st	Z, r1
+ 41c:	0e 94 65 01 	call	0x2ca	; 0x2ca <button_isJoystickPressed>
+ 420:	88 23       	and	r24, r24
+ 422:	89 f0       	breq	.+34     	; 0x446 <button_checkState+0x4c>
+ 424:	80 91 05 02 	lds	r24, 0x0205
+ 428:	88 2f       	mov	r24, r24
+ 42a:	90 e0       	ldi	r25, 0x00	; 0
+ 42c:	20 91 05 02 	lds	r18, 0x0205
+ 430:	22 2f       	mov	r18, r18
+ 432:	30 e0       	ldi	r19, 0x00	; 0
+ 434:	2a 5f       	subi	r18, 0xFA	; 250
+ 436:	3d 4f       	sbci	r19, 0xFD	; 253
+ 438:	f9 01       	movw	r30, r18
+ 43a:	20 81       	ld	r18, Z
+ 43c:	21 60       	ori	r18, 0x01	; 1
+ 43e:	8a 5f       	subi	r24, 0xFA	; 250
+ 440:	9d 4f       	sbci	r25, 0xFD	; 253
+ 442:	fc 01       	movw	r30, r24
+ 444:	20 83       	st	Z, r18
+ 446:	0e 94 75 01 	call	0x2ea	; 0x2ea <button_isRotaryPressed>
+ 44a:	88 23       	and	r24, r24
+ 44c:	89 f0       	breq	.+34     	; 0x470 <button_checkState+0x76>
+ 44e:	80 91 05 02 	lds	r24, 0x0205
+ 452:	88 2f       	mov	r24, r24
+ 454:	90 e0       	ldi	r25, 0x00	; 0
+ 456:	20 91 05 02 	lds	r18, 0x0205
+ 45a:	22 2f       	mov	r18, r18
+ 45c:	30 e0       	ldi	r19, 0x00	; 0
+ 45e:	2a 5f       	subi	r18, 0xFA	; 250
+ 460:	3d 4f       	sbci	r19, 0xFD	; 253
+ 462:	f9 01       	movw	r30, r18
+ 464:	20 81       	ld	r18, Z
+ 466:	22 60       	ori	r18, 0x02	; 2
+ 468:	8a 5f       	subi	r24, 0xFA	; 250
+ 46a:	9d 4f       	sbci	r25, 0xFD	; 253
+ 46c:	fc 01       	movw	r30, r24
+ 46e:	20 83       	st	Z, r18
+ 470:	80 91 05 02 	lds	r24, 0x0205
+ 474:	8f 5f       	subi	r24, 0xFF	; 255
+ 476:	80 93 05 02 	sts	0x0205, r24
+ 47a:	80 91 05 02 	lds	r24, 0x0205
+ 47e:	85 30       	cpi	r24, 0x05	; 5
+ 480:	11 f4       	brne	.+4      	; 0x486 <button_checkState+0x8c>
+ 482:	10 92 05 02 	sts	0x0205, r1
+ 486:	8f ef       	ldi	r24, 0xFF	; 255
+ 488:	89 83       	std	Y+1, r24	; 0x01
+ 48a:	1a 82       	std	Y+2, r1	; 0x02
+ 48c:	0d c0       	rjmp	.+26     	; 0x4a8 <button_checkState+0xae>
+ 48e:	8a 81       	ldd	r24, Y+2	; 0x02
+ 490:	88 2f       	mov	r24, r24
+ 492:	90 e0       	ldi	r25, 0x00	; 0
+ 494:	8a 5f       	subi	r24, 0xFA	; 250
+ 496:	9d 4f       	sbci	r25, 0xFD	; 253
+ 498:	fc 01       	movw	r30, r24
+ 49a:	80 81       	ld	r24, Z
+ 49c:	99 81       	ldd	r25, Y+1	; 0x01
+ 49e:	89 23       	and	r24, r25
+ 4a0:	89 83       	std	Y+1, r24	; 0x01
+ 4a2:	8a 81       	ldd	r24, Y+2	; 0x02
+ 4a4:	8f 5f       	subi	r24, 0xFF	; 255
+ 4a6:	8a 83       	std	Y+2, r24	; 0x02
+ 4a8:	8a 81       	ldd	r24, Y+2	; 0x02
+ 4aa:	85 30       	cpi	r24, 0x05	; 5
+ 4ac:	80 f3       	brcs	.-32     	; 0x48e <button_checkState+0x94>
+ 4ae:	89 81       	ldd	r24, Y+1	; 0x01
+ 4b0:	80 93 04 02 	sts	0x0204, r24
+ 4b4:	80 91 04 02 	lds	r24, 0x0204
+ 4b8:	88 2f       	mov	r24, r24
+ 4ba:	90 e0       	ldi	r25, 0x00	; 0
+ 4bc:	81 70       	andi	r24, 0x01	; 1
+ 4be:	99 27       	eor	r25, r25
+ 4c0:	89 2b       	or	r24, r25
+ 4c2:	99 f0       	breq	.+38     	; 0x4ea <button_checkState+0xf0>
+ 4c4:	8b 81       	ldd	r24, Y+3	; 0x03
+ 4c6:	88 2f       	mov	r24, r24
+ 4c8:	90 e0       	ldi	r25, 0x00	; 0
+ 4ca:	81 70       	andi	r24, 0x01	; 1
+ 4cc:	99 27       	eor	r25, r25
+ 4ce:	89 2b       	or	r24, r25
+ 4d0:	61 f4       	brne	.+24     	; 0x4ea <button_checkState+0xf0>
+ 4d2:	80 91 02 02 	lds	r24, 0x0202
+ 4d6:	90 91 03 02 	lds	r25, 0x0203
+ 4da:	89 2b       	or	r24, r25
+ 4dc:	31 f0       	breq	.+12     	; 0x4ea <button_checkState+0xf0>
+ 4de:	80 91 02 02 	lds	r24, 0x0202
+ 4e2:	90 91 03 02 	lds	r25, 0x0203
+ 4e6:	fc 01       	movw	r30, r24
+ 4e8:	09 95       	icall
+ 4ea:	80 91 04 02 	lds	r24, 0x0204
+ 4ee:	88 2f       	mov	r24, r24
+ 4f0:	90 e0       	ldi	r25, 0x00	; 0
+ 4f2:	82 70       	andi	r24, 0x02	; 2
+ 4f4:	99 27       	eor	r25, r25
+ 4f6:	89 2b       	or	r24, r25
+ 4f8:	99 f0       	breq	.+38     	; 0x520 <button_checkState+0x126>
+ 4fa:	8b 81       	ldd	r24, Y+3	; 0x03
+ 4fc:	88 2f       	mov	r24, r24
+ 4fe:	90 e0       	ldi	r25, 0x00	; 0
+ 500:	82 70       	andi	r24, 0x02	; 2
+ 502:	99 27       	eor	r25, r25
+ 504:	89 2b       	or	r24, r25
+ 506:	61 f4       	brne	.+24     	; 0x520 <button_checkState+0x126>
+ 508:	80 91 00 02 	lds	r24, 0x0200
+ 50c:	90 91 01 02 	lds	r25, 0x0201
+ 510:	89 2b       	or	r24, r25
+ 512:	31 f0       	breq	.+12     	; 0x520 <button_checkState+0x126>
+ 514:	80 91 00 02 	lds	r24, 0x0200
+ 518:	90 91 01 02 	lds	r25, 0x0201
+ 51c:	fc 01       	movw	r30, r24
+ 51e:	09 95       	icall
+ 520:	0f 90       	pop	r0
+ 522:	0f 90       	pop	r0
+ 524:	0f 90       	pop	r0
+ 526:	df 91       	pop	r29
+ 528:	cf 91       	pop	r28
+ 52a:	08 95       	ret
+
+0000052c <led_redInit>:
+ 52c:	cf 93       	push	r28
+ 52e:	df 93       	push	r29
+ 530:	cd b7       	in	r28, 0x3d	; 61
+ 532:	de b7       	in	r29, 0x3e	; 62
+ 534:	83 e3       	ldi	r24, 0x33	; 51
+ 536:	90 e0       	ldi	r25, 0x00	; 0
+ 538:	23 e3       	ldi	r18, 0x33	; 51
+ 53a:	30 e0       	ldi	r19, 0x00	; 0
+ 53c:	f9 01       	movw	r30, r18
+ 53e:	20 81       	ld	r18, Z
+ 540:	22 60       	ori	r18, 0x02	; 2
+ 542:	fc 01       	movw	r30, r24
+ 544:	20 83       	st	Z, r18
+ 546:	0e 94 c9 02 	call	0x592	; 0x592 <led_redOff>
+ 54a:	df 91       	pop	r29
+ 54c:	cf 91       	pop	r28
+ 54e:	08 95       	ret
+
+00000550 <led_redToggle>:
+ 550:	cf 93       	push	r28
+ 552:	df 93       	push	r29
+ 554:	cd b7       	in	r28, 0x3d	; 61
+ 556:	de b7       	in	r29, 0x3e	; 62
+ 558:	84 e3       	ldi	r24, 0x34	; 52
+ 55a:	90 e0       	ldi	r25, 0x00	; 0
+ 55c:	24 e3       	ldi	r18, 0x34	; 52
+ 55e:	30 e0       	ldi	r19, 0x00	; 0
+ 560:	f9 01       	movw	r30, r18
+ 562:	30 81       	ld	r19, Z
+ 564:	22 e0       	ldi	r18, 0x02	; 2
+ 566:	23 27       	eor	r18, r19
+ 568:	fc 01       	movw	r30, r24
+ 56a:	20 83       	st	Z, r18
+ 56c:	df 91       	pop	r29
+ 56e:	cf 91       	pop	r28
+ 570:	08 95       	ret
+
+00000572 <led_redOn>:
+ 572:	cf 93       	push	r28
+ 574:	df 93       	push	r29
+ 576:	cd b7       	in	r28, 0x3d	; 61
+ 578:	de b7       	in	r29, 0x3e	; 62
+ 57a:	84 e3       	ldi	r24, 0x34	; 52
+ 57c:	90 e0       	ldi	r25, 0x00	; 0
+ 57e:	24 e3       	ldi	r18, 0x34	; 52
+ 580:	30 e0       	ldi	r19, 0x00	; 0
+ 582:	f9 01       	movw	r30, r18
+ 584:	20 81       	ld	r18, Z
+ 586:	2d 7f       	andi	r18, 0xFD	; 253
+ 588:	fc 01       	movw	r30, r24
+ 58a:	20 83       	st	Z, r18
+ 58c:	df 91       	pop	r29
+ 58e:	cf 91       	pop	r28
+ 590:	08 95       	ret
+
+00000592 <led_redOff>:
+ 592:	cf 93       	push	r28
+ 594:	df 93       	push	r29
+ 596:	cd b7       	in	r28, 0x3d	; 61
+ 598:	de b7       	in	r29, 0x3e	; 62
+ 59a:	84 e3       	ldi	r24, 0x34	; 52
+ 59c:	90 e0       	ldi	r25, 0x00	; 0
+ 59e:	24 e3       	ldi	r18, 0x34	; 52
+ 5a0:	30 e0       	ldi	r19, 0x00	; 0
+ 5a2:	f9 01       	movw	r30, r18
+ 5a4:	20 81       	ld	r18, Z
+ 5a6:	22 60       	ori	r18, 0x02	; 2
+ 5a8:	fc 01       	movw	r30, r24
+ 5aa:	20 83       	st	Z, r18
+ 5ac:	df 91       	pop	r29
+ 5ae:	cf 91       	pop	r28
+ 5b0:	08 95       	ret
+
+000005b2 <led_yellowInit>:
+ 5b2:	cf 93       	push	r28
+ 5b4:	df 93       	push	r29
+ 5b6:	cd b7       	in	r28, 0x3d	; 61
+ 5b8:	de b7       	in	r29, 0x3e	; 62
+ 5ba:	80 e3       	ldi	r24, 0x30	; 48
+ 5bc:	90 e0       	ldi	r25, 0x00	; 0
+ 5be:	20 e3       	ldi	r18, 0x30	; 48
+ 5c0:	30 e0       	ldi	r19, 0x00	; 0
+ 5c2:	f9 01       	movw	r30, r18
+ 5c4:	20 81       	ld	r18, Z
+ 5c6:	20 68       	ori	r18, 0x80	; 128
+ 5c8:	fc 01       	movw	r30, r24
+ 5ca:	20 83       	st	Z, r18
+ 5cc:	0e 94 0c 03 	call	0x618	; 0x618 <led_yellowOff>
+ 5d0:	df 91       	pop	r29
+ 5d2:	cf 91       	pop	r28
+ 5d4:	08 95       	ret
+
+000005d6 <led_yellowToggle>:
+ 5d6:	cf 93       	push	r28
+ 5d8:	df 93       	push	r29
+ 5da:	cd b7       	in	r28, 0x3d	; 61
+ 5dc:	de b7       	in	r29, 0x3e	; 62
+ 5de:	81 e3       	ldi	r24, 0x31	; 49
+ 5e0:	90 e0       	ldi	r25, 0x00	; 0
+ 5e2:	21 e3       	ldi	r18, 0x31	; 49
+ 5e4:	30 e0       	ldi	r19, 0x00	; 0
+ 5e6:	f9 01       	movw	r30, r18
+ 5e8:	30 81       	ld	r19, Z
+ 5ea:	20 e8       	ldi	r18, 0x80	; 128
+ 5ec:	23 27       	eor	r18, r19
+ 5ee:	fc 01       	movw	r30, r24
+ 5f0:	20 83       	st	Z, r18
+ 5f2:	df 91       	pop	r29
+ 5f4:	cf 91       	pop	r28
+ 5f6:	08 95       	ret
+
+000005f8 <led_yellowOn>:
+ 5f8:	cf 93       	push	r28
+ 5fa:	df 93       	push	r29
+ 5fc:	cd b7       	in	r28, 0x3d	; 61
+ 5fe:	de b7       	in	r29, 0x3e	; 62
+ 600:	81 e3       	ldi	r24, 0x31	; 49
+ 602:	90 e0       	ldi	r25, 0x00	; 0
+ 604:	21 e3       	ldi	r18, 0x31	; 49
+ 606:	30 e0       	ldi	r19, 0x00	; 0
+ 608:	f9 01       	movw	r30, r18
+ 60a:	20 81       	ld	r18, Z
+ 60c:	2f 77       	andi	r18, 0x7F	; 127
+ 60e:	fc 01       	movw	r30, r24
+ 610:	20 83       	st	Z, r18
+ 612:	df 91       	pop	r29
+ 614:	cf 91       	pop	r28
+ 616:	08 95       	ret
+
+00000618 <led_yellowOff>:
+ 618:	cf 93       	push	r28
+ 61a:	df 93       	push	r29
+ 61c:	cd b7       	in	r28, 0x3d	; 61
+ 61e:	de b7       	in	r29, 0x3e	; 62
+ 620:	81 e3       	ldi	r24, 0x31	; 49
+ 622:	90 e0       	ldi	r25, 0x00	; 0
+ 624:	21 e3       	ldi	r18, 0x31	; 49
+ 626:	30 e0       	ldi	r19, 0x00	; 0
+ 628:	f9 01       	movw	r30, r18
+ 62a:	20 81       	ld	r18, Z
+ 62c:	20 68       	ori	r18, 0x80	; 128
+ 62e:	fc 01       	movw	r30, r24
+ 630:	20 83       	st	Z, r18
+ 632:	df 91       	pop	r29
+ 634:	cf 91       	pop	r28
+ 636:	08 95       	ret
+
+00000638 <led_greenInit>:
+ 638:	cf 93       	push	r28
+ 63a:	df 93       	push	r29
+ 63c:	cd b7       	in	r28, 0x3d	; 61
+ 63e:	de b7       	in	r29, 0x3e	; 62
+ 640:	80 e3       	ldi	r24, 0x30	; 48
+ 642:	90 e0       	ldi	r25, 0x00	; 0
+ 644:	20 e3       	ldi	r18, 0x30	; 48
+ 646:	30 e0       	ldi	r19, 0x00	; 0
+ 648:	f9 01       	movw	r30, r18
+ 64a:	20 81       	ld	r18, Z
+ 64c:	20 64       	ori	r18, 0x40	; 64
+ 64e:	fc 01       	movw	r30, r24
+ 650:	20 83       	st	Z, r18
+ 652:	0e 94 4f 03 	call	0x69e	; 0x69e <led_greenOff>
+ 656:	df 91       	pop	r29
+ 658:	cf 91       	pop	r28
+ 65a:	08 95       	ret
+
+0000065c <led_greenToggle>:
+ 65c:	cf 93       	push	r28
+ 65e:	df 93       	push	r29
+ 660:	cd b7       	in	r28, 0x3d	; 61
+ 662:	de b7       	in	r29, 0x3e	; 62
+ 664:	81 e3       	ldi	r24, 0x31	; 49
+ 666:	90 e0       	ldi	r25, 0x00	; 0
+ 668:	21 e3       	ldi	r18, 0x31	; 49
+ 66a:	30 e0       	ldi	r19, 0x00	; 0
+ 66c:	f9 01       	movw	r30, r18
+ 66e:	30 81       	ld	r19, Z
+ 670:	20 e4       	ldi	r18, 0x40	; 64
+ 672:	23 27       	eor	r18, r19
+ 674:	fc 01       	movw	r30, r24
+ 676:	20 83       	st	Z, r18
+ 678:	df 91       	pop	r29
+ 67a:	cf 91       	pop	r28
+ 67c:	08 95       	ret
+
+0000067e <led_greenOn>:
+ 67e:	cf 93       	push	r28
+ 680:	df 93       	push	r29
+ 682:	cd b7       	in	r28, 0x3d	; 61
+ 684:	de b7       	in	r29, 0x3e	; 62
+ 686:	81 e3       	ldi	r24, 0x31	; 49
+ 688:	90 e0       	ldi	r25, 0x00	; 0
+ 68a:	21 e3       	ldi	r18, 0x31	; 49
+ 68c:	30 e0       	ldi	r19, 0x00	; 0
+ 68e:	f9 01       	movw	r30, r18
+ 690:	20 81       	ld	r18, Z
+ 692:	2f 7b       	andi	r18, 0xBF	; 191
+ 694:	fc 01       	movw	r30, r24
+ 696:	20 83       	st	Z, r18
+ 698:	df 91       	pop	r29
+ 69a:	cf 91       	pop	r28
+ 69c:	08 95       	ret
+
+0000069e <led_greenOff>:
+ 69e:	cf 93       	push	r28
+ 6a0:	df 93       	push	r29
+ 6a2:	cd b7       	in	r28, 0x3d	; 61
+ 6a4:	de b7       	in	r29, 0x3e	; 62
+ 6a6:	81 e3       	ldi	r24, 0x31	; 49
+ 6a8:	90 e0       	ldi	r25, 0x00	; 0
+ 6aa:	21 e3       	ldi	r18, 0x31	; 49
+ 6ac:	30 e0       	ldi	r19, 0x00	; 0
+ 6ae:	f9 01       	movw	r30, r18
+ 6b0:	20 81       	ld	r18, Z
+ 6b2:	20 64       	ori	r18, 0x40	; 64
+ 6b4:	fc 01       	movw	r30, r24
+ 6b6:	20 83       	st	Z, r18
+ 6b8:	df 91       	pop	r29
+ 6ba:	cf 91       	pop	r28
+ 6bc:	08 95       	ret
+
+000006be <timer2_setCallback>:
+ 6be:	cf 93       	push	r28
+ 6c0:	df 93       	push	r29
+ 6c2:	00 d0       	rcall	.+0      	; 0x6c4 <timer2_setCallback+0x6>
+ 6c4:	cd b7       	in	r28, 0x3d	; 61
+ 6c6:	de b7       	in	r29, 0x3e	; 62
+ 6c8:	9a 83       	std	Y+2, r25	; 0x02
+ 6ca:	89 83       	std	Y+1, r24	; 0x01
+ 6cc:	89 81       	ldd	r24, Y+1	; 0x01
+ 6ce:	9a 81       	ldd	r25, Y+2	; 0x02
+ 6d0:	90 93 0e 02 	sts	0x020E, r25
+ 6d4:	80 93 0d 02 	sts	0x020D, r24
+ 6d8:	0f 90       	pop	r0
+ 6da:	0f 90       	pop	r0
+ 6dc:	df 91       	pop	r29
+ 6de:	cf 91       	pop	r28
+ 6e0:	08 95       	ret
+
+000006e2 <timer2_start>:
+ 6e2:	cf 93       	push	r28
+ 6e4:	df 93       	push	r29
+ 6e6:	cd b7       	in	r28, 0x3d	; 61
+ 6e8:	de b7       	in	r29, 0x3e	; 62
+ 6ea:	81 eb       	ldi	r24, 0xB1	; 177
+ 6ec:	90 e0       	ldi	r25, 0x00	; 0
+ 6ee:	21 eb       	ldi	r18, 0xB1	; 177
+ 6f0:	30 e0       	ldi	r19, 0x00	; 0
+ 6f2:	f9 01       	movw	r30, r18
+ 6f4:	20 81       	ld	r18, Z
+ 6f6:	27 7f       	andi	r18, 0xF7	; 247
+ 6f8:	fc 01       	movw	r30, r24
+ 6fa:	20 83       	st	Z, r18
+ 6fc:	80 eb       	ldi	r24, 0xB0	; 176
+ 6fe:	90 e0       	ldi	r25, 0x00	; 0
+ 700:	20 eb       	ldi	r18, 0xB0	; 176
+ 702:	30 e0       	ldi	r19, 0x00	; 0
+ 704:	f9 01       	movw	r30, r18
+ 706:	20 81       	ld	r18, Z
+ 708:	22 60       	ori	r18, 0x02	; 2
+ 70a:	fc 01       	movw	r30, r24
+ 70c:	20 83       	st	Z, r18
+ 70e:	80 eb       	ldi	r24, 0xB0	; 176
+ 710:	90 e0       	ldi	r25, 0x00	; 0
+ 712:	20 eb       	ldi	r18, 0xB0	; 176
+ 714:	30 e0       	ldi	r19, 0x00	; 0
+ 716:	f9 01       	movw	r30, r18
+ 718:	20 81       	ld	r18, Z
+ 71a:	2e 7f       	andi	r18, 0xFE	; 254
+ 71c:	fc 01       	movw	r30, r24
+ 71e:	20 83       	st	Z, r18
+ 720:	81 eb       	ldi	r24, 0xB1	; 177
+ 722:	90 e0       	ldi	r25, 0x00	; 0
+ 724:	21 eb       	ldi	r18, 0xB1	; 177
+ 726:	30 e0       	ldi	r19, 0x00	; 0
+ 728:	f9 01       	movw	r30, r18
+ 72a:	20 81       	ld	r18, Z
+ 72c:	24 60       	ori	r18, 0x04	; 4
+ 72e:	fc 01       	movw	r30, r24
+ 730:	20 83       	st	Z, r18
+ 732:	81 eb       	ldi	r24, 0xB1	; 177
+ 734:	90 e0       	ldi	r25, 0x00	; 0
+ 736:	21 eb       	ldi	r18, 0xB1	; 177
+ 738:	30 e0       	ldi	r19, 0x00	; 0
+ 73a:	f9 01       	movw	r30, r18
+ 73c:	20 81       	ld	r18, Z
+ 73e:	2d 7f       	andi	r18, 0xFD	; 253
+ 740:	fc 01       	movw	r30, r24
+ 742:	20 83       	st	Z, r18
+ 744:	81 eb       	ldi	r24, 0xB1	; 177
+ 746:	90 e0       	ldi	r25, 0x00	; 0
+ 748:	21 eb       	ldi	r18, 0xB1	; 177
+ 74a:	30 e0       	ldi	r19, 0x00	; 0
+ 74c:	f9 01       	movw	r30, r18
+ 74e:	20 81       	ld	r18, Z
+ 750:	2e 7f       	andi	r18, 0xFE	; 254
+ 752:	fc 01       	movw	r30, r24
+ 754:	20 83       	st	Z, r18
+ 756:	80 e7       	ldi	r24, 0x70	; 112
+ 758:	90 e0       	ldi	r25, 0x00	; 0
+ 75a:	20 e7       	ldi	r18, 0x70	; 112
+ 75c:	30 e0       	ldi	r19, 0x00	; 0
+ 75e:	f9 01       	movw	r30, r18
+ 760:	20 81       	ld	r18, Z
+ 762:	22 60       	ori	r18, 0x02	; 2
+ 764:	fc 01       	movw	r30, r24
+ 766:	20 83       	st	Z, r18
+ 768:	87 e3       	ldi	r24, 0x37	; 55
+ 76a:	90 e0       	ldi	r25, 0x00	; 0
+ 76c:	27 e3       	ldi	r18, 0x37	; 55
+ 76e:	30 e0       	ldi	r19, 0x00	; 0
+ 770:	f9 01       	movw	r30, r18
+ 772:	20 81       	ld	r18, Z
+ 774:	22 60       	ori	r18, 0x02	; 2
+ 776:	fc 01       	movw	r30, r24
+ 778:	20 83       	st	Z, r18
+ 77a:	83 eb       	ldi	r24, 0xB3	; 179
+ 77c:	90 e0       	ldi	r25, 0x00	; 0
+ 77e:	29 ef       	ldi	r18, 0xF9	; 249
+ 780:	fc 01       	movw	r30, r24
+ 782:	20 83       	st	Z, r18
+ 784:	df 91       	pop	r29
+ 786:	cf 91       	pop	r28
+ 788:	08 95       	ret
+
+0000078a <timer2_stop>:
+ 78a:	cf 93       	push	r28
+ 78c:	df 93       	push	r29
+ 78e:	cd b7       	in	r28, 0x3d	; 61
+ 790:	de b7       	in	r29, 0x3e	; 62
+ 792:	81 eb       	ldi	r24, 0xB1	; 177
+ 794:	90 e0       	ldi	r25, 0x00	; 0
+ 796:	21 eb       	ldi	r18, 0xB1	; 177
+ 798:	30 e0       	ldi	r19, 0x00	; 0
+ 79a:	f9 01       	movw	r30, r18
+ 79c:	20 81       	ld	r18, Z
+ 79e:	2b 7f       	andi	r18, 0xFB	; 251
+ 7a0:	fc 01       	movw	r30, r24
+ 7a2:	20 83       	st	Z, r18
+ 7a4:	df 91       	pop	r29
+ 7a6:	cf 91       	pop	r28
+ 7a8:	08 95       	ret
+
+000007aa <timer1_setCallback>:
+ 7aa:	cf 93       	push	r28
+ 7ac:	df 93       	push	r29
+ 7ae:	00 d0       	rcall	.+0      	; 0x7b0 <timer1_setCallback+0x6>
+ 7b0:	cd b7       	in	r28, 0x3d	; 61
+ 7b2:	de b7       	in	r29, 0x3e	; 62
+ 7b4:	9a 83       	std	Y+2, r25	; 0x02
+ 7b6:	89 83       	std	Y+1, r24	; 0x01
+ 7b8:	89 81       	ldd	r24, Y+1	; 0x01
+ 7ba:	9a 81       	ldd	r25, Y+2	; 0x02
+ 7bc:	90 93 0c 02 	sts	0x020C, r25
+ 7c0:	80 93 0b 02 	sts	0x020B, r24
+ 7c4:	0f 90       	pop	r0
+ 7c6:	0f 90       	pop	r0
+ 7c8:	df 91       	pop	r29
+ 7ca:	cf 91       	pop	r28
+ 7cc:	08 95       	ret
+
+000007ce <timer1_start>:
+ 7ce:	cf 93       	push	r28
+ 7d0:	df 93       	push	r29
+ 7d2:	cd b7       	in	r28, 0x3d	; 61
+ 7d4:	de b7       	in	r29, 0x3e	; 62
+ 7d6:	81 e8       	ldi	r24, 0x81	; 129
+ 7d8:	90 e0       	ldi	r25, 0x00	; 0
+ 7da:	21 e8       	ldi	r18, 0x81	; 129
+ 7dc:	30 e0       	ldi	r19, 0x00	; 0
+ 7de:	f9 01       	movw	r30, r18
+ 7e0:	20 81       	ld	r18, Z
+ 7e2:	2f 7e       	andi	r18, 0xEF	; 239
+ 7e4:	fc 01       	movw	r30, r24
+ 7e6:	20 83       	st	Z, r18
+ 7e8:	81 e8       	ldi	r24, 0x81	; 129
+ 7ea:	90 e0       	ldi	r25, 0x00	; 0
+ 7ec:	21 e8       	ldi	r18, 0x81	; 129
+ 7ee:	30 e0       	ldi	r19, 0x00	; 0
+ 7f0:	f9 01       	movw	r30, r18
+ 7f2:	20 81       	ld	r18, Z
+ 7f4:	28 60       	ori	r18, 0x08	; 8
+ 7f6:	fc 01       	movw	r30, r24
+ 7f8:	20 83       	st	Z, r18
+ 7fa:	80 e8       	ldi	r24, 0x80	; 128
+ 7fc:	90 e0       	ldi	r25, 0x00	; 0
+ 7fe:	20 e8       	ldi	r18, 0x80	; 128
+ 800:	30 e0       	ldi	r19, 0x00	; 0
+ 802:	f9 01       	movw	r30, r18
+ 804:	20 81       	ld	r18, Z
+ 806:	2d 7f       	andi	r18, 0xFD	; 253
+ 808:	fc 01       	movw	r30, r24
+ 80a:	20 83       	st	Z, r18
+ 80c:	80 e8       	ldi	r24, 0x80	; 128
+ 80e:	90 e0       	ldi	r25, 0x00	; 0
+ 810:	20 e8       	ldi	r18, 0x80	; 128
+ 812:	30 e0       	ldi	r19, 0x00	; 0
+ 814:	f9 01       	movw	r30, r18
+ 816:	20 81       	ld	r18, Z
+ 818:	2e 7f       	andi	r18, 0xFE	; 254
+ 81a:	fc 01       	movw	r30, r24
+ 81c:	20 83       	st	Z, r18
+ 81e:	81 e8       	ldi	r24, 0x81	; 129
+ 820:	90 e0       	ldi	r25, 0x00	; 0
+ 822:	21 e8       	ldi	r18, 0x81	; 129
+ 824:	30 e0       	ldi	r19, 0x00	; 0
+ 826:	f9 01       	movw	r30, r18
+ 828:	20 81       	ld	r18, Z
+ 82a:	2b 7f       	andi	r18, 0xFB	; 251
+ 82c:	fc 01       	movw	r30, r24
+ 82e:	20 83       	st	Z, r18
+ 830:	81 e8       	ldi	r24, 0x81	; 129
+ 832:	90 e0       	ldi	r25, 0x00	; 0
+ 834:	21 e8       	ldi	r18, 0x81	; 129
+ 836:	30 e0       	ldi	r19, 0x00	; 0
+ 838:	f9 01       	movw	r30, r18
+ 83a:	20 81       	ld	r18, Z
+ 83c:	22 60       	ori	r18, 0x02	; 2
+ 83e:	fc 01       	movw	r30, r24
+ 840:	20 83       	st	Z, r18
+ 842:	81 e8       	ldi	r24, 0x81	; 129
+ 844:	90 e0       	ldi	r25, 0x00	; 0
+ 846:	21 e8       	ldi	r18, 0x81	; 129
+ 848:	30 e0       	ldi	r19, 0x00	; 0
+ 84a:	f9 01       	movw	r30, r18
+ 84c:	20 81       	ld	r18, Z
+ 84e:	21 60       	ori	r18, 0x01	; 1
+ 850:	fc 01       	movw	r30, r24
+ 852:	20 83       	st	Z, r18
+ 854:	8f e6       	ldi	r24, 0x6F	; 111
+ 856:	90 e0       	ldi	r25, 0x00	; 0
+ 858:	2f e6       	ldi	r18, 0x6F	; 111
+ 85a:	30 e0       	ldi	r19, 0x00	; 0
+ 85c:	f9 01       	movw	r30, r18
+ 85e:	20 81       	ld	r18, Z
+ 860:	22 60       	ori	r18, 0x02	; 2
+ 862:	fc 01       	movw	r30, r24
+ 864:	20 83       	st	Z, r18
+ 866:	86 e3       	ldi	r24, 0x36	; 54
+ 868:	90 e0       	ldi	r25, 0x00	; 0
+ 86a:	26 e3       	ldi	r18, 0x36	; 54
+ 86c:	30 e0       	ldi	r19, 0x00	; 0
+ 86e:	f9 01       	movw	r30, r18
+ 870:	20 81       	ld	r18, Z
+ 872:	22 60       	ori	r18, 0x02	; 2
+ 874:	fc 01       	movw	r30, r24
+ 876:	20 83       	st	Z, r18
+ 878:	88 e8       	ldi	r24, 0x88	; 136
+ 87a:	90 e0       	ldi	r25, 0x00	; 0
+ 87c:	21 ee       	ldi	r18, 0xE1	; 225
+ 87e:	34 e0       	ldi	r19, 0x04	; 4
+ 880:	fc 01       	movw	r30, r24
+ 882:	31 83       	std	Z+1, r19	; 0x01
+ 884:	20 83       	st	Z, r18
+ 886:	df 91       	pop	r29
+ 888:	cf 91       	pop	r28
+ 88a:	08 95       	ret
+
+0000088c <timer1_stop>:
+ 88c:	cf 93       	push	r28
+ 88e:	df 93       	push	r29
+ 890:	cd b7       	in	r28, 0x3d	; 61
+ 892:	de b7       	in	r29, 0x3e	; 62
+ 894:	81 e8       	ldi	r24, 0x81	; 129
+ 896:	90 e0       	ldi	r25, 0x00	; 0
+ 898:	21 e8       	ldi	r18, 0x81	; 129
+ 89a:	30 e0       	ldi	r19, 0x00	; 0
+ 89c:	f9 01       	movw	r30, r18
+ 89e:	20 81       	ld	r18, Z
+ 8a0:	2d 7f       	andi	r18, 0xFD	; 253
+ 8a2:	fc 01       	movw	r30, r24
+ 8a4:	20 83       	st	Z, r18
+ 8a6:	81 e8       	ldi	r24, 0x81	; 129
+ 8a8:	90 e0       	ldi	r25, 0x00	; 0
+ 8aa:	21 e8       	ldi	r18, 0x81	; 129
+ 8ac:	30 e0       	ldi	r19, 0x00	; 0
+ 8ae:	f9 01       	movw	r30, r18
+ 8b0:	20 81       	ld	r18, Z
+ 8b2:	2e 7f       	andi	r18, 0xFE	; 254
+ 8b4:	fc 01       	movw	r30, r24
+ 8b6:	20 83       	st	Z, r18
+ 8b8:	df 91       	pop	r29
+ 8ba:	cf 91       	pop	r28
+ 8bc:	08 95       	ret
+
+000008be <__vector_17>:
+ 8be:	1f 92       	push	r1
+ 8c0:	0f 92       	push	r0
+ 8c2:	00 90 5f 00 	lds	r0, 0x005F
+ 8c6:	0f 92       	push	r0
+ 8c8:	11 24       	eor	r1, r1
+ 8ca:	00 90 5b 00 	lds	r0, 0x005B
+ 8ce:	0f 92       	push	r0
+ 8d0:	2f 93       	push	r18
+ 8d2:	3f 93       	push	r19
+ 8d4:	4f 93       	push	r20
+ 8d6:	5f 93       	push	r21
+ 8d8:	6f 93       	push	r22
+ 8da:	7f 93       	push	r23
+ 8dc:	8f 93       	push	r24
+ 8de:	9f 93       	push	r25
+ 8e0:	af 93       	push	r26
+ 8e2:	bf 93       	push	r27
+ 8e4:	ef 93       	push	r30
+ 8e6:	ff 93       	push	r31
+ 8e8:	cf 93       	push	r28
+ 8ea:	df 93       	push	r29
+ 8ec:	cd b7       	in	r28, 0x3d	; 61
+ 8ee:	de b7       	in	r29, 0x3e	; 62
+ 8f0:	80 91 0b 02 	lds	r24, 0x020B
+ 8f4:	90 91 0c 02 	lds	r25, 0x020C
+ 8f8:	fc 01       	movw	r30, r24
+ 8fa:	09 95       	icall
+ 8fc:	df 91       	pop	r29
+ 8fe:	cf 91       	pop	r28
+ 900:	ff 91       	pop	r31
+ 902:	ef 91       	pop	r30
+ 904:	bf 91       	pop	r27
+ 906:	af 91       	pop	r26
+ 908:	9f 91       	pop	r25
+ 90a:	8f 91       	pop	r24
+ 90c:	7f 91       	pop	r23
+ 90e:	6f 91       	pop	r22
+ 910:	5f 91       	pop	r21
+ 912:	4f 91       	pop	r20
+ 914:	3f 91       	pop	r19
+ 916:	2f 91       	pop	r18
+ 918:	0f 90       	pop	r0
+ 91a:	00 92 5b 00 	sts	0x005B, r0
+ 91e:	0f 90       	pop	r0
+ 920:	00 92 5f 00 	sts	0x005F, r0
+ 924:	0f 90       	pop	r0
+ 926:	1f 90       	pop	r1
+ 928:	18 95       	reti
+
+0000092a <__vector_13>:
+ 92a:	1f 92       	push	r1
+ 92c:	0f 92       	push	r0
+ 92e:	00 90 5f 00 	lds	r0, 0x005F
+ 932:	0f 92       	push	r0
+ 934:	11 24       	eor	r1, r1
+ 936:	00 90 5b 00 	lds	r0, 0x005B
+ 93a:	0f 92       	push	r0
+ 93c:	2f 93       	push	r18
+ 93e:	3f 93       	push	r19
+ 940:	4f 93       	push	r20
+ 942:	5f 93       	push	r21
+ 944:	6f 93       	push	r22
+ 946:	7f 93       	push	r23
+ 948:	8f 93       	push	r24
+ 94a:	9f 93       	push	r25
+ 94c:	af 93       	push	r26
+ 94e:	bf 93       	push	r27
+ 950:	ef 93       	push	r30
+ 952:	ff 93       	push	r31
+ 954:	cf 93       	push	r28
+ 956:	df 93       	push	r29
+ 958:	cd b7       	in	r28, 0x3d	; 61
+ 95a:	de b7       	in	r29, 0x3e	; 62
+ 95c:	80 91 0d 02 	lds	r24, 0x020D
+ 960:	90 91 0e 02 	lds	r25, 0x020E
+ 964:	fc 01       	movw	r30, r24
+ 966:	09 95       	icall
+ 968:	df 91       	pop	r29
+ 96a:	cf 91       	pop	r28
+ 96c:	ff 91       	pop	r31
+ 96e:	ef 91       	pop	r30
+ 970:	bf 91       	pop	r27
+ 972:	af 91       	pop	r26
+ 974:	9f 91       	pop	r25
+ 976:	8f 91       	pop	r24
+ 978:	7f 91       	pop	r23
+ 97a:	6f 91       	pop	r22
+ 97c:	5f 91       	pop	r21
+ 97e:	4f 91       	pop	r20
+ 980:	3f 91       	pop	r19
+ 982:	2f 91       	pop	r18
+ 984:	0f 90       	pop	r0
+ 986:	00 92 5b 00 	sts	0x005B, r0
+ 98a:	0f 90       	pop	r0
+ 98c:	00 92 5f 00 	sts	0x005F, r0
+ 990:	0f 90       	pop	r0
+ 992:	1f 90       	pop	r1
+ 994:	18 95       	reti
+
+00000996 <_exit>:
+ 996:	f8 94       	cli
+
+00000998 <__stop_program>:
+ 998:	ff cf       	rjmp	.-2      	; 0x998 <__stop_program>
