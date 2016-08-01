@@ -136,43 +136,15 @@ static void set_address(uint32_t *addr) {
 static void start_block_flash_read(uint16_t size, uint32_t *addr) {
 
 	uint8_t data;
-//	uint16_t word;
 	(*addr) <<= 1;
-
-//	lcd_setCursor(0, 2);
-//	fprintf(lcdout, "%"PRIu32, *addr);
-//	_delay_ms(3000);
 
 	do {
 		data = pgm_read_byte_far((*addr)++); //(uint32_t)0);//(*addr)++); // read_program_memory(address,0x00);
-//		word = pgm_read_word_far((*addr)++);
-//		uart_putc(word&0xff);
-//		uart_putc((word>>8)&0xff);
-
-
-
-//		lcd_setCursor(0, 2);
-//		fprintf(lcdout, "index:%" PRIu16" %02x", size, data);
-//		_delay_ms(2000);
-
 		uart_putc(data);			   				// send byte
 		size--;				// reduce number of bytes to read by one
 	} while (size);						// loop through size
 
 	(*addr) >>= 1;
-
-//	uint8_t i;
-//	uint8_t buf[SPM_PAGESIZE] = { 0 };
-//	for (i = 0; i < size; i++) {
-//		buf[i] = pgm_read_byte_far((*addr) + i);
-//		lcd_setCursor(0, 2);
-//		fprintf(lcdout, "index:%" PRIu16" %02x", i, buf[i]);
-//	}
-//	for (i = 0; i < size; i++)
-//		uart_putc(buf[i]);
-//
-//	(*addr) >>= 1;
-
 }
 
 //B
@@ -182,8 +154,6 @@ static void start_block_flash_load(uint16_t size, uint32_t *addr) {
 	int i;
 	uint8_t buf[SPM_PAGESIZE] = { 0 };
 	fprintf(lcdout, "B");
-//	cli();
-// Disable interrupts
 
 	(*addr) <<= 1;
 
@@ -200,11 +170,6 @@ static void start_block_flash_load(uint16_t size, uint32_t *addr) {
 		for (i = 0; i < size; i += 2) {
 			uint16_t w = buf[i];
 			uint16_t temp = buf[i + 1];
-
-//			lcd_setCursor(0, 1);
-//			fprintf(lcdout, "%3d", i);
-//			fprintf(lcdout, " %02x, %02x", w,temp);
-
 			w += temp << 8;  //first one is low byte, second is high???
 			boot_page_fill((*addr)+i, w);
 		}
